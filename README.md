@@ -23,6 +23,14 @@ Apply `supabase/migrations/0001_foundation.sql`, then `supabase/seed/001_franchi
 
 Do not commit real credentials. Copy `.env.example` to `.env.local` and fill in Supabase values locally.
 
-## Data boundary
+## Official auction data
 
-No player data is invented or seeded in Phase 1. The official IPL 2025 shortlist, official sets, and reserve prices are intentionally reserved for the next import phase.
+Phase 2 includes the 574-row structured IPL 2025 auction dataset in `data/ipl-2025-auction/players.json` plus deterministic `auction_sets.json`. The source row list and aggregate IPL reference are documented in that directory. Re-run `python3 scripts/parse-ipl-2025-auction.py` after supplying the source PDF locally; the parser fails on count, serial, set, overseas, or reserve-price mismatches rather than guessing.
+
+Run the Phase 2 checks with:
+
+```bash
+npm test
+```
+
+The development-only verification view is available at `/data-verification`. It intentionally exposes no player ratings or future auction order.

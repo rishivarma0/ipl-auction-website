@@ -44,3 +44,5 @@ next-env.d.ts
 /.codex/
 /outputs/
 /work/
+# Source PDF is fetched by the documented parser and is not redistributed.
+/data/ipl-2025-auction/source-auction-list.pdf
