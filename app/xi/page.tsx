@@ -1,2 +1,2 @@
-import { TeamBuilder } from "@/components/team-builder";
-export default function XiPage() { return <TeamBuilder />; }
+import { redirect } from "next/navigation";
+export default function XiPage() { redirect("/team"); }

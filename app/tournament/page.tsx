@@ -1,3 +1,2 @@
-import { TournamentDashboard } from "@/components/tournament-dashboard";
-
-export default function TournamentPage() { return <TournamentDashboard />; }
+import { redirect } from "next/navigation";
+export default function TournamentPage() { redirect("/team"); }

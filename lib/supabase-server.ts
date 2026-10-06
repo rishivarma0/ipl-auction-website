@@ -19,7 +19,11 @@ export async function callPostAuctionGateway<T>(body: Record<string, unknown>): 
   const endpoint = `${url ?? ""}/functions/v1/post-auction-gateway`;
   const response = await fetch(endpoint, { method: "POST", headers: { "content-type": "application/json", apikey: key ?? "" }, body: JSON.stringify(body), cache: "no-store" });
   const data = await response.json() as { error?: string };
-  if (!response.ok) throw new Error(data.error ?? "POST_AUCTION_GATEWAY_FAILED");
+  if (!response.ok) {
+    const error = new Error(data.error ?? "POST_AUCTION_GATEWAY_FAILED") as Error & { status?: number };
+    error.status = response.status;
+    throw error;
+  }
   return data as T;
 }
 
