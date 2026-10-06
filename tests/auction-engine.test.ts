@@ -6,6 +6,7 @@ import { remainingMilliseconds, resumeTimerEndsAt } from "@/lib/auction-timer";
 const migration = readFileSync(new URL("../supabase/migrations/0005_realtime_auction_engine.sql", import.meta.url), "utf8");
 const foundation = readFileSync(new URL("../supabase/migrations/0001_foundation.sql", import.meta.url), "utf8");
 const privileged = readFileSync(new URL("../supabase/migrations/0008_saved_simulation_playoffs.sql", import.meta.url), "utf8");
+const moderation = readFileSync(new URL("../supabase/migrations/0013_host_kick_member.sql", import.meta.url), "utf8");
 const server = readFileSync(new URL("../lib/supabase-server.ts", import.meta.url), "utf8");
 
 test("database engine locks auction state and bids transactionally", () => {
@@ -44,4 +45,12 @@ test("post-auction mutations are server-only and authorization is explicit", () 
   assert.doesNotMatch(server, /SUPABASE_(SECRET|SERVICE_ROLE)_KEY/);
   assert.doesNotMatch(server, /NEXT_PUBLIC_SUPABASE_SERVICE_ROLE_KEY/);
   assert.doesNotMatch(server, /console\.(log|error).*secret/i);
+});
+
+test("host moderation and timer lock stay server-authoritative", () => {
+  assert.match(moderation, /assert_room_session\(p_room_id, p_session_key\)/);
+  assert.match(moderation, /v_room\.host_member_id <> v_host/);
+  assert.match(moderation, /v_room\.status <> 'WAITING'/);
+  assert.match(readFileSync(new URL("../supabase/migrations/0012_live_timer_and_bidder_snapshot.sql", import.meta.url), "utf8"), /AUCTION_ALREADY_STARTED/);
+  assert.match(readFileSync(new URL("../app/api/auction/action/route.ts", import.meta.url), "utf8"), /kick_room_member/);
 });
