@@ -1,5 +1,6 @@
 -- Phase 2: official auction metadata refinements. No room queue is generated here.
 alter table auction_sets rename column set_no to official_set_no;
+alter table auction_sets rename column set_code to official_set_code;
 alter table auction_sets rename column set_name to display_name;
 alter table auction_sets rename column display_order to set_order;
 alter table auction_sets add column if not exists player_count integer not null default 0 check (player_count >= 0);
