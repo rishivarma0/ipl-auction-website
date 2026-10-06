@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import { ArrowLeft, ArrowRight, Check, ChevronDown, ChevronUp, Gavel, GripVertical, Lock, ShieldCheck, Trophy, Users } from "lucide-react";
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useReducer, useRef, useState } from "react";
+import { initialXiDraft, xiDraftReducer } from "@/lib/xi-draft";
 import { formatAuctionPrice } from "@/lib/auction-pricing";
 import { groupByPublicRole, normalizePublicRole } from "@/lib/player-roles";
 import { getRoomSession, type RoomSession } from "@/lib/room-session";
@@ -18,17 +19,31 @@ async function workspaceFor(session: RoomSession) { const response = await fetch
 async function sendCommand(session: RoomSession, command: string, payload: Record<string, unknown> = {}) { const response = await fetch("/api/post-auction/action", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ roomId: session.roomId, sessionKey: session.sessionKey, command, payload }) }); const data = await response.json() as { error?: string }; if (!response.ok) throw new Error(data.error ?? "ACTION_FAILED"); return data; }
 
 export function TeamBuilder() {
-  const [session] = useState<RoomSession | null>(() => getRoomSession()); const [workspace, setWorkspace] = useState<Workspace | null>(null); const [selected, setSelected] = useState<string[]>([]); const [error, setError] = useState(""); const [busy, setBusy] = useState(false); const [tab, setTab] = useState<"squad" | "order">("squad"); const [dragging, setDragging] = useState<string | null>(null);
-  const load = useCallback(async () => { if (!session) return; try { const next = await workspaceFor(session); setWorkspace(next); setSelected(next.xi.sort((a, b) => a.batting_position - b.batting_position).map(item => item.player_id)); setError(""); } catch (e) { setError(friendly(e instanceof Error ? e.message : "WORKSPACE_FAILED")); } }, [session]);
+  const [session] = useState<RoomSession | null>(() => getRoomSession());
+  const [draft, dispatch] = useReducer(xiDraftReducer<Workspace>, initialXiDraft<Workspace>());
+  const { workspace, selected } = draft;
+  const requestSequence = useRef(0);
+  const mutationPending = useRef(false);
+  const [error, setError] = useState(""); const [busy, setBusy] = useState(false); const [tab, setTab] = useState<"squad" | "order">("squad"); const [dragging, setDragging] = useState<string | null>(null);
+  const load = useCallback(async () => {
+    if (!session) return;
+    const requestId = ++requestSequence.current;
+    try {
+      const next = await workspaceFor(session);
+      dispatch({ type: "workspace", workspace: next, requestId });
+    } catch (e) {
+      if (requestId === requestSequence.current) setError(friendly(e instanceof Error ? e.message : "WORKSPACE_FAILED"));
+    }
+  }, [session]);
   useEffect(() => { const id = window.setTimeout(() => void load(), 0); return () => window.clearTimeout(id); }, [load]);
   useEffect(() => { const id = window.setInterval(() => void load(), 2500); return () => window.clearInterval(id); }, [load]);
   const chosen = useMemo(() => selected.map(id => workspace?.players.find(player => player.id === id)).filter(Boolean) as Player[], [selected, workspace]); const overseas = chosen.filter(player => player.overseas).length; const hasKeeper = chosen.some(player => player.wicketkeeper); const bowlers = chosen.filter(player => player.specialism.includes("BOWL") || player.specialism.includes("ALL-ROUNDER") || player.bowling_style).length; const legal = selected.length === 11 && overseas <= 4 && hasKeeper && bowlers >= 4;
-  const run = async (command: string, payload: Record<string, unknown> = {}) => { if (!session || busy) return false; setBusy(true); try { await sendCommand(session, command, payload); setError(""); await load(); return true; } catch (e) { setError(friendly(e instanceof Error ? e.message : "ACTION_FAILED")); return false; } finally { setBusy(false); } };
-  const lock = async () => { if (!session || busy) return; setBusy(true); try { await sendCommand(session, "SAVE_XI", { player_ids: selected }); await sendCommand(session, "SAVE_BATTING_ORDER", { player_ids: selected }); await sendCommand(session, "LOCK_TEAM"); setError(""); await load(); } catch (e) { setError(friendly(e instanceof Error ? e.message : "ACTION_FAILED")); } finally { setBusy(false); } };
+  const run = async (command: string, payload: Record<string, unknown> = {}) => { if (!session || mutationPending.current) return false; mutationPending.current = true; setBusy(true); const revision = draft.revision; try { await sendCommand(session, command, payload); if (command === "SAVE_XI") dispatch({ type: "saved", revision }); setError(""); await load(); return true; } catch (e) { setError(friendly(e instanceof Error ? e.message : "ACTION_FAILED")); return false; } finally { mutationPending.current = false; setBusy(false); } };
+  const lock = async () => { if (!session || mutationPending.current) return; mutationPending.current = true; setBusy(true); try { await sendCommand(session, "SAVE_XI", { player_ids: selected }); await sendCommand(session, "SAVE_BATTING_ORDER", { player_ids: selected }); await sendCommand(session, "LOCK_TEAM"); dispatch({ type: "saved", revision: draft.revision }); setError(""); await load(); } catch (e) { setError(friendly(e instanceof Error ? e.message : "ACTION_FAILED")); } finally { mutationPending.current = false; setBusy(false); } };
   const start = async () => { if (session?.isHost && await run("START_TOURNAMENT")) window.location.reload(); };
-  const toggle = (id: string) => { if (workspace?.squad.xi_locked) return; setSelected(current => current.includes(id) ? current.filter(item => item !== id) : current.length < 11 ? [...current, id] : current); };
-  const move = (index: number, delta: number) => { const next = [...selected]; const target = index + delta; if (target < 0 || target >= next.length) return; [next[index], next[target]] = [next[target], next[index]]; setSelected(next); };
-  const drop = (id: string) => { if (!dragging || dragging === id) return; const next = [...selected]; const from = next.indexOf(dragging); const to = next.indexOf(id); next.splice(from, 1); next.splice(to, 0, dragging); setSelected(next); setDragging(null); };
+  const toggle = (id: string) => { if (!mutationPending.current) dispatch({ type: "toggle", playerId: id }); };
+  const move = (index: number, delta: number) => { if (!mutationPending.current) dispatch({ type: "move", from: index, to: index + delta }); };
+  const drop = (id: string) => { if (!dragging || mutationPending.current) return; dispatch({ type: "move", from: selected.indexOf(dragging), to: selected.indexOf(id) }); setDragging(null); };
   if (!session || !workspace) return <main className="app-background"><section className="loading-card"><Eyebrow>TEAM BUILDER</Eyebrow><h1>Loading your<br /><em>qualified squad.</em></h1><p>{error || "Restoring your secure room session…"}</p></section></main>;
   if (workspace.squad.qualification_status !== "QUALIFIED") return <main className="app-background"><section className="completion-card"><Eyebrow>AUCTION COMPLETE</Eyebrow><h1>Team<br /><em>eliminated.</em></h1><p>This squad did not reach the room minimum of {workspace.room.minimum_squad_size} players.</p><Link href="/team" className="secondary-button">View room results <ArrowRight size={15} /></Link></section></main>;
   const groups = groupByPublicRole(workspace.players);
