@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { test } from "node:test";
 import { remainingMilliseconds, resumeTimerEndsAt } from "@/lib/auction-timer";
+import { groupByPublicRole, normalizePublicRole } from "@/lib/player-roles";
 
 const migration = readFileSync(new URL("../supabase/migrations/0005_realtime_auction_engine.sql", import.meta.url), "utf8");
 const foundation = readFileSync(new URL("../supabase/migrations/0001_foundation.sql", import.meta.url), "utf8");
@@ -59,4 +60,22 @@ test("host can change the bid timer during the live auction", () => {
   const liveTimer = readFileSync(new URL("../supabase/migrations/0015_allow_live_timer_changes.sql", import.meta.url), "utf8");
   assert.match(liveTimer, /v_room\.status not in \('WAITING', 'RUNNING', 'PAUSED'\)/);
   assert.match(liveTimer, /next bid\/reset/);
+});
+
+test("public roles normalize with wicketkeeper precedence and skip empty groups", () => {
+  const players = [
+    { specialism: "WICKETKEEPER-BATTER", wicketkeeper: true },
+    { specialism: "ALL-ROUNDER/BATTER", wicketkeeper: false },
+    { specialism: "PACE BOWLER", wicketkeeper: false },
+    { specialism: "BATTER/OPENER", wicketkeeper: false },
+  ];
+  assert.deepEqual(players.map(normalizePublicRole), ["WICKET-KEEPER", "ALL-ROUNDER", "BOWLER", "BATTER"]);
+  assert.deepEqual(groupByPublicRole(players).map(group => [group.role, group.players.length]), [["BATTER", 1], ["WICKET-KEEPER", 1], ["ALL-ROUNDER", 1], ["BOWLER", 1]]);
+});
+
+test("team builder exposes manual-only readiness and host start", () => {
+  const builder = readFileSync(new URL("../components/team-builder.tsx", import.meta.url), "utf8");
+  assert.match(builder, /START_TOURNAMENT/);
+  assert.match(builder, /workspace\.all_ready && session\.isHost/);
+  assert.doesNotMatch(builder, /AUTO_PICK_BEST_XI|AUTO_SET_ORDER|AUTO_PICK_XI|AUTO_PICK & LOCK/);
 });
