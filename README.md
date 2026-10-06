@@ -21,7 +21,7 @@ npm run dev
 
 ## Supabase
 
-Apply migrations in filename order, then `supabase/seed/001_franchises.sql`. The schema keeps official auction metadata, secret room queue data, auction state, squad ownership, XI selection, ratings, and tournament simulation data separate. Privileged post-auction RPCs are revoked from `anon` and `authenticated`; Next.js routes validate the room session, membership, ownership, and host role before using the server-only Supabase secret.
+Apply migrations in filename order, then `supabase/seed/001_franchises.sql`. The schema keeps official auction metadata, secret room queue data, auction state, squad ownership, XI selection, ratings, and tournament simulation data separate. Privileged post-auction RPCs are revoked from `anon` and `authenticated`; the Next.js server validates room session, membership, ownership, and host role before invoking the Supabase Edge Function gateway.
 
 Do not commit real credentials. Copy `.env.example` to `.env.local` and fill in Supabase values locally.
 
@@ -44,12 +44,26 @@ npm test
 The development-only verification view is available at `/data-verification`. It intentionally exposes no player ratings or future auction order.
 # Verified player-statistics pipeline
 
-`npm run stats:update` reads the gitignored Cricsheet IPL and men’s T20 JSON
-archives plus the Cricsheet people/name registers and emits compact audited
-artifacts in `data/player-stats/`. Delivery rules, wickets, phase boundaries,
-recent weighted form, mapping methods, and provenance are preserved; unavailable
-metrics remain `NULL`. The production migration `0017_verified_player_stats.sql`
-blocks tournament start with `PLAYER_STATS_NOT_READY` until every seeded player
-has a verified IPL/T20 row. The current audit report is committed in
-`data/player-stats/validation-report.json` and must be regenerated when the
-source archives are updated.
+`npm run stats:update` reproducibly reads gitignored Cricsheet IPL, men's T20
+international, and domestic/franchise T20 archives (SMAT, BBL, PSL, CPL, SA20,
+ILT, MLC, LPL, T20 Blast, BPL, CSA T20 Challenge, Major Clubs T20, and Super
+Smash), plus Cricsheet people/name registers. It emits audited artifacts in
+`data/player-stats/`. Identity matching prefers exact/active registry matches;
+ambiguous identities are deliberately left unmapped. Metrics retain provenance,
+use only appearances in the source, and leave unavailable values null. Recent
+form uses up to 15 appearances in the trailing 365-day source window with
+exponential recency weighting. Hidden strength scores use a role-specific
+combination of recent form, IPL, and broader T20 metrics; rows without verified
+appearances return no score.
+
+The current Cricsheet data cutoff is 2026-09-17. The 620-player audit reports
+485 verified profiles (328 with IPL history and 157 with broader T20 history)
+and 135 without verified coverage. Reasons and per-player mapping status are
+recorded in `data/player-stats/missing-profiles.json`; no missing profile is
+filled with invented statistics. The shared production readiness helper feeds
+both Team Builder and the server-side tournament guard, so tournament start
+stays disabled until all seeded profiles have verified coverage. Regenerate
+the artifacts with `npm run stats:update`, then use
+`scripts/generate-player-stats-sql.py <start> <end>` in manageable batches to
+upsert them into the project. `data/player-stats/validation-report.json` records
+source archive counts, coverage, and mapping outcomes.

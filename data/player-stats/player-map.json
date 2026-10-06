@@ -3,139 +3,139 @@
     "source_record_key": "OFFICIAL-1",
     "full_name": "Jos Buttler",
     "cricsheet_id": "99b75528",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-2",
     "full_name": "Shreyas Iyer",
     "cricsheet_id": "85ec8e33",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-3",
     "full_name": "Rishabh Pant",
     "cricsheet_id": "919a3be2",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-4",
     "full_name": "Kagiso Rabada",
     "cricsheet_id": "e62dd25d",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-5",
     "full_name": "Arshdeep Singh",
     "cricsheet_id": "244048f6",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-6",
     "full_name": "Mitchell Starc",
     "cricsheet_id": "3fb19989",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-7",
     "full_name": "Yuzvendra Chahal",
     "cricsheet_id": "57ee1fde",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-8",
     "full_name": "Liam Livingstone",
     "cricsheet_id": "50c6bc2b",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-9",
     "full_name": "David Miller",
     "cricsheet_id": "d67d5f00",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-10",
     "full_name": "KL Rahul",
     "cricsheet_id": "b17e2f24",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-11",
     "full_name": "Mohammad Shami",
     "cricsheet_id": "8cf9814c",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-12",
     "full_name": "Mohammad Siraj",
     "cricsheet_id": "2f49c897",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-13",
     "full_name": "Harry Brook",
     "cricsheet_id": "4ae1755b",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-14",
     "full_name": "Devon Conway",
     "cricsheet_id": "df5a6881",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-15",
     "full_name": "Jake Fraser-Mcgurk",
     "cricsheet_id": "9b6e1b3f",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-16",
     "full_name": "Aiden Markram",
     "cricsheet_id": "6a26221c",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-17",
     "full_name": "Devdutt Padikkal",
     "cricsheet_id": "2c25d4f5",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-18",
     "full_name": "Rahul Tripathi",
     "cricsheet_id": "77255a9e",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-19",
     "full_name": "David Warner",
     "cricsheet_id": "dcce6f09",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-20",
     "full_name": "Ravichandaran Ashwin",
     "cricsheet_id": "495d42a5",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-21",
     "full_name": "Venkatesh Iyer",
     "cricsheet_id": "a24be938",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-22",
     "full_name": "Mitchell Marsh",
     "cricsheet_id": "3d8feaf8",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-23",
     "full_name": "Glenn Maxwell",
     "cricsheet_id": "b681e71e",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-24",
@@ -147,43 +147,43 @@
     "source_record_key": "OFFICIAL-25",
     "full_name": "Rachin Ravindra",
     "cricsheet_id": "ba5e1069",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-26",
     "full_name": "Marcus Stoinis",
     "cricsheet_id": "d9273ee7",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-27",
     "full_name": "Jonny Bairstow",
     "cricsheet_id": "abb83e27",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-28",
     "full_name": "Quinton De Kock",
     "cricsheet_id": "372455c4",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-29",
     "full_name": "Rahmanullah Gurbaz",
     "cricsheet_id": "0bacade8",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-30",
     "full_name": "Ishan Kishan",
     "cricsheet_id": "752f7486",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-31",
     "full_name": "Phil Salt",
     "cricsheet_id": "3d284ca3",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-32",
@@ -201,139 +201,139 @@
     "source_record_key": "OFFICIAL-34",
     "full_name": "Trent Boult",
     "cricsheet_id": "a818c1be",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-35",
     "full_name": "Josh Hazlewood",
     "cricsheet_id": "03806cf8",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-36",
     "full_name": "Avesh Khan",
     "cricsheet_id": "eef2536f",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-37",
     "full_name": "Prasidh Krishna",
     "cricsheet_id": "85e0cf10",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-38",
     "full_name": "T. Natarajan",
     "cricsheet_id": "ce794613",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-39",
     "full_name": "Anrich Nortje",
     "cricsheet_id": "acdc62f5",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-40",
     "full_name": "Noor Ahmad",
     "cricsheet_id": "efc04be7",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-41",
     "full_name": "Rahul Chahar",
     "cricsheet_id": "2ed569a0",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-42",
     "full_name": "Wanindu Hasaranga",
     "cricsheet_id": "a97c8ec2",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-43",
     "full_name": "Waqar Salamkheil",
     "cricsheet_id": "3f1066d0",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-44",
     "full_name": "Maheesh Theekshana",
     "cricsheet_id": "f24c6701",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-45",
     "full_name": "Adam Zampa",
     "cricsheet_id": "14f96089",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-46",
     "full_name": "Yash Dhull",
     "cricsheet_id": "dd7e9b3b",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-47",
     "full_name": "Abhinav Manohar",
     "cricsheet_id": "0890552f",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-48",
     "full_name": "Karun Nair",
     "cricsheet_id": "944533a5",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-49",
     "full_name": "Angkrish Raghuvanshi",
     "cricsheet_id": "d7017798",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-50",
     "full_name": "Anmolpreet Singh",
     "cricsheet_id": "1399b39c",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-51",
     "full_name": "Atharva Taide",
     "cricsheet_id": "1ac746c8",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-52",
     "full_name": "Nehal Wadhera",
     "cricsheet_id": "d1a60072",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-53",
     "full_name": "Harpreet Brar",
     "cricsheet_id": "c05edf8e",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-54",
     "full_name": "Naman Dhir",
     "cricsheet_id": "fffa744b",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-55",
     "full_name": "Mahipal Lomror",
     "cricsheet_id": "da934ee8",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-56",
     "full_name": "Sameer Rizvi",
     "cricsheet_id": "f89d3b11",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-57",
@@ -345,61 +345,61 @@
     "source_record_key": "OFFICIAL-58",
     "full_name": "Vijay Shankar",
     "cricsheet_id": "0994d0ae",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-59",
     "full_name": "Ashutosh Sharma",
     "cricsheet_id": "84d9c311",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-60",
     "full_name": "Nishant Sindhu",
     "cricsheet_id": "3cea23da",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-61",
     "full_name": "Utkarsh Singh",
     "cricsheet_id": "b2a55ac1",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-62",
     "full_name": "Aryan Juyal",
     "cricsheet_id": "5f2732f7",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-63",
     "full_name": "Kumar Kushagra",
     "cricsheet_id": "57ca01b3",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-64",
     "full_name": "Robin Minz",
     "cricsheet_id": "bafd0398",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-65",
     "full_name": "Anuj Rawat",
     "cricsheet_id": "c8f5f961",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-66",
     "full_name": "Luvnith Sisodia",
     "cricsheet_id": "a689af4b",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-67",
     "full_name": "Vishnu Vinod",
     "cricsheet_id": "0494fa6e",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-68",
@@ -411,19 +411,19 @@
     "source_record_key": "OFFICIAL-69",
     "full_name": "Vaibhav Arora",
     "cricsheet_id": "7c3b3b78",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-70",
     "full_name": "Rasikh Dar",
     "cricsheet_id": "b82354b3",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-71",
     "full_name": "Akash Madhwal",
     "cricsheet_id": "4bd09374",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-72",
@@ -435,19 +435,19 @@
     "source_record_key": "OFFICIAL-73",
     "full_name": "Simarjeet Singh",
     "cricsheet_id": "30df8c66",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-74",
     "full_name": "Yash Thakur",
     "cricsheet_id": "4b31f3a3",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-75",
     "full_name": "Kartik Tyagi",
     "cricsheet_id": "5d2eea49",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-76",
@@ -459,43 +459,43 @@
     "source_record_key": "OFFICIAL-77",
     "full_name": "Piyush Chawla",
     "cricsheet_id": "98ae73b1",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-78",
     "full_name": "Shreyas Gopal",
     "cricsheet_id": "7a8bd078",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-79",
     "full_name": "Mayank Markande",
     "cricsheet_id": "a9fd84fb",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-80",
     "full_name": "Suyash Sharma",
     "cricsheet_id": "9440ef41",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-81",
     "full_name": "Karn Sharma",
     "cricsheet_id": "119678fd",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-82",
     "full_name": "Kumar Kartikeya Singh",
     "cricsheet_id": "f6d8a7ab",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-83",
     "full_name": "Manav Suthar",
     "cricsheet_id": "025c4400",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-84",
@@ -507,199 +507,199 @@
     "source_record_key": "OFFICIAL-85",
     "full_name": "Faf Du Plessis",
     "cricsheet_id": "3355b542",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-86",
     "full_name": "Glenn Phillips",
     "cricsheet_id": "9a46c4e5",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-87",
     "full_name": "Rovman Powell",
-    "cricsheet_id": null,
-    "method": "ambiguous"
+    "cricsheet_id": "650d5e49",
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-88",
     "full_name": "Ajinkya Rahane",
     "cricsheet_id": "29e95537",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-89",
     "full_name": "Prithvi Shaw",
     "cricsheet_id": "8b3e9c7c",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-90",
     "full_name": "Kane Williamson",
     "cricsheet_id": "d027ba9f",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-91",
     "full_name": "Sam Curran",
     "cricsheet_id": "e94915e6",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-92",
     "full_name": "Marco Jansen",
     "cricsheet_id": "81c36ee9",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-93",
     "full_name": "Daryl Mitchell",
     "cricsheet_id": "eade4650",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-94",
     "full_name": "Krunal Pandya",
-    "cricsheet_id": null,
-    "method": "ambiguous"
+    "cricsheet_id": "5b8c830e",
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-95",
     "full_name": "Nitish Rana",
     "cricsheet_id": "fb2d1dda",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-96",
     "full_name": "Washington Sundar",
     "cricsheet_id": "f19ccfad",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-97",
     "full_name": "Shardul Thakur",
     "cricsheet_id": "1abb78f8",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-98",
     "full_name": "K.S Bharat",
     "cricsheet_id": "44a89551",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-99",
     "full_name": "Alex Carey",
     "cricsheet_id": "69d03465",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-100",
     "full_name": "Donovan Ferreira",
     "cricsheet_id": "f0af99a7",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-101",
     "full_name": "Shai Hope",
     "cricsheet_id": "1fc6ef83",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-102",
     "full_name": "Josh Inglis",
     "cricsheet_id": "989889ff",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-103",
     "full_name": "Ryan Rickelton",
     "cricsheet_id": "e66732f8",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-104",
     "full_name": "Deepak Chahar",
     "cricsheet_id": "23eeb873",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-105",
     "full_name": "Gerald Coetzee",
     "cricsheet_id": "3204c99f",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-106",
     "full_name": "Akash Deep",
     "cricsheet_id": "0a67aec0",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-107",
     "full_name": "Tushar Deshpande",
     "cricsheet_id": "46a9bea1",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-108",
     "full_name": "Lockie Ferguson",
     "cricsheet_id": "2f9d0389",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-109",
     "full_name": "Bhuvneshwar Kumar",
     "cricsheet_id": "2e81a32d",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-110",
     "full_name": "Mukesh Kumar",
     "cricsheet_id": "2cffab74",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-111",
     "full_name": "Allah Ghazanfar",
     "cricsheet_id": "9ca68676",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-112",
     "full_name": "Akeal Hosein",
     "cricsheet_id": "4d7f517e",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-113",
     "full_name": "Keshav Maharaj",
     "cricsheet_id": "0b60eb09",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-114",
     "full_name": "Mujeeb Ur Rahman",
     "cricsheet_id": "7d92277a",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-115",
     "full_name": "Adil Rashid",
     "cricsheet_id": "249d60c9",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-116",
     "full_name": "Vijayakanth Viyaskanth",
     "cricsheet_id": "03a83c50",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-117",
     "full_name": "Ricky Bhui",
     "cricsheet_id": "b63e358a",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-118",
@@ -711,49 +711,49 @@
     "source_record_key": "OFFICIAL-119",
     "full_name": "Aarya Desai",
     "cricsheet_id": "8053c798",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-120",
     "full_name": "Shubham Dubey",
     "cricsheet_id": "6b2ff18f",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-121",
     "full_name": "Madhav Kaushik",
     "cricsheet_id": "49110249",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-122",
     "full_name": "Pukhraj Mann",
     "cricsheet_id": "4a9a8c3d",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-123",
     "full_name": "Shaik Rasheed",
-    "cricsheet_id": null,
-    "method": "ambiguous"
+    "cricsheet_id": "cbf58a86",
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-124",
     "full_name": "Himmat Singh",
     "cricsheet_id": "ebcfef83",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-125",
     "full_name": "Mayank Dagar",
     "cricsheet_id": "a457cfb5",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-126",
     "full_name": "Anshul Kamboj",
     "cricsheet_id": "fcc21ace",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-127",
@@ -765,31 +765,31 @@
     "source_record_key": "OFFICIAL-128",
     "full_name": "Darshan Nalkande",
     "cricsheet_id": "cd8d2859",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-129",
     "full_name": "Suyash Prabhudessai",
     "cricsheet_id": "9385de2e",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-130",
     "full_name": "Anukul Roy",
     "cricsheet_id": "e4cdf230",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-131",
     "full_name": "Swapnil Singh",
     "cricsheet_id": "983f2f61",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-132",
     "full_name": "Sanvir Singh",
     "cricsheet_id": "b0f2baf4",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-133",
@@ -807,7 +807,7 @@
     "source_record_key": "OFFICIAL-135",
     "full_name": "Saurav Chauhan",
     "cricsheet_id": "9e7225b0",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-136",
@@ -819,49 +819,49 @@
     "source_record_key": "OFFICIAL-137",
     "full_name": "Tom Kohler-Cadmore",
     "cricsheet_id": "f836b33d",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-138",
     "full_name": "Kunal Rathore",
     "cricsheet_id": "e3851766",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-139",
     "full_name": "B.R Sharath",
     "cricsheet_id": "c2dd89ea",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-140",
     "full_name": "Gurnoor Singh Brar",
     "cricsheet_id": "99258814",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-141",
     "full_name": "Mukesh Choudhary",
     "cricsheet_id": "765a4731",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-142",
     "full_name": "Sakib Hussain",
     "cricsheet_id": "280fff14",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-143",
     "full_name": "Vidwath Kaverappa",
     "cricsheet_id": "d4d929b0",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-144",
     "full_name": "Rajan Kumar",
     "cricsheet_id": "cd474693",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-145",
@@ -873,13 +873,13 @@
     "source_record_key": "OFFICIAL-146",
     "full_name": "Arjun Tendulkar",
     "cricsheet_id": "44aac2f0",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-147",
     "full_name": "Zeeshan Ansari",
     "cricsheet_id": "36619795",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-148",
@@ -890,14 +890,14 @@
   {
     "source_record_key": "OFFICIAL-149",
     "full_name": "Himanshu Sharma",
-    "cricsheet_id": null,
-    "method": "ambiguous"
+    "cricsheet_id": "52294a79",
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-150",
     "full_name": "M. Siddharth",
     "cricsheet_id": "cf0ccafa",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-151",
@@ -908,8 +908,8 @@
   {
     "source_record_key": "OFFICIAL-152",
     "full_name": "Prashant Solanki",
-    "cricsheet_id": null,
-    "method": "ambiguous"
+    "cricsheet_id": "c695b423",
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-153",
@@ -927,43 +927,43 @@
     "source_record_key": "OFFICIAL-155",
     "full_name": "Dewald Brevis",
     "cricsheet_id": "844e79d1",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-156",
     "full_name": "Ben Duckett",
     "cricsheet_id": "5f26f677",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-157",
     "full_name": "Manish Pandey",
     "cricsheet_id": "93b4fc78",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-158",
     "full_name": "Rilee Rossouw",
     "cricsheet_id": "cad00a4d",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-159",
     "full_name": "Sherfane Rutherford",
     "cricsheet_id": "d014d5ac",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-160",
     "full_name": "Ashton Turner",
     "cricsheet_id": "ff1e12a0",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-161",
     "full_name": "James Vince",
     "cricsheet_id": "a15618fe",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-162",
@@ -975,151 +975,151 @@
     "source_record_key": "OFFICIAL-163",
     "full_name": "Moeen Ali",
     "cricsheet_id": "bb351c23",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-164",
     "full_name": "Tim David",
     "cricsheet_id": "f1f99156",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-165",
     "full_name": "Deepak Hooda",
     "cricsheet_id": "73ad96ed",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-166",
     "full_name": "Will Jacks",
     "cricsheet_id": "9caf69a1",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-167",
     "full_name": "Azmatullah Omarzai",
     "cricsheet_id": "8f6dd463",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-168",
     "full_name": "R. Sai Kishore",
     "cricsheet_id": "c7a995d3",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-169",
     "full_name": "Romario Shepherd",
     "cricsheet_id": "c5aef772",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-170",
     "full_name": "Tom Banton",
     "cricsheet_id": "25f7b7d6",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-171",
     "full_name": "Sam Billings",
     "cricsheet_id": "c16d4035",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-172",
     "full_name": "Jordan Cox",
-    "cricsheet_id": null,
-    "method": "ambiguous"
+    "cricsheet_id": "ff154ecd",
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-173",
     "full_name": "Ben McDermott",
     "cricsheet_id": "c41043e6",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-174",
     "full_name": "Kusal Mendis",
     "cricsheet_id": "5d1e7582",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-175",
     "full_name": "Kusal Perera",
     "cricsheet_id": "f21043a5",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-176",
     "full_name": "Josh Philippe",
     "cricsheet_id": "39086549",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-177",
     "full_name": "Tim Seifert",
     "cricsheet_id": "4663bd23",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-178",
     "full_name": "Nandre Burger",
     "cricsheet_id": "465aa633",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-179",
     "full_name": "Spencer Johnson",
-    "cricsheet_id": null,
-    "method": "ambiguous"
+    "cricsheet_id": "83c3e8e3",
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-180",
     "full_name": "Umran Malik",
     "cricsheet_id": "81c08fa3",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-181",
     "full_name": "Mustafizur Rahman",
     "cricsheet_id": "0a8fce53",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-182",
     "full_name": "Ishant Sharma",
     "cricsheet_id": "5bb1a1c4",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-183",
     "full_name": "Nuwan Thushara",
     "cricsheet_id": "ee1b6c27",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-184",
     "full_name": "Naveen Ul Haq",
     "cricsheet_id": "c0c411cb",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-185",
     "full_name": "Jaydev Unadkat",
     "cricsheet_id": "1e66c162",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-186",
     "full_name": "Umesh Yadav",
     "cricsheet_id": "cc1e8c68",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-187",
     "full_name": "Rishad Hossain",
     "cricsheet_id": "5935d694",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-188",
@@ -1131,37 +1131,37 @@
     "source_record_key": "OFFICIAL-189",
     "full_name": "Nqabayomzi Peter",
     "cricsheet_id": "212aeedd",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-190",
     "full_name": "Tanveer Sangha",
     "cricsheet_id": "52c952d9",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-191",
     "full_name": "Tabraiz Shamsi",
     "cricsheet_id": "a03bba42",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-192",
     "full_name": "Jeffery Vandersay",
     "cricsheet_id": "aceb7654",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-193",
     "full_name": "Sachin Baby",
     "cricsheet_id": "dc9dd038",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-194",
     "full_name": "Priyam Garg",
     "cricsheet_id": "bb965e9a",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-195",
@@ -1173,13 +1173,13 @@
     "source_record_key": "OFFICIAL-196",
     "full_name": "Smaran Ravichandran",
     "cricsheet_id": "9f2be73d",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-197",
     "full_name": "Shashwat Rawat",
     "cricsheet_id": "7e435410",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-198",
@@ -1191,13 +1191,13 @@
     "source_record_key": "OFFICIAL-199",
     "full_name": "Avneesh Sudha",
     "cricsheet_id": "126e8cb3",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-200",
     "full_name": "Apoorv Wankhade",
     "cricsheet_id": "5708d0b6",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-201",
@@ -1215,31 +1215,31 @@
     "source_record_key": "OFFICIAL-203",
     "full_name": "Rajvardhan Hangargekar",
     "cricsheet_id": "c3c92b42",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-204",
     "full_name": "Tanush Kotian",
     "cricsheet_id": "5724e517",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-205",
     "full_name": "Arshin Kulkarni",
-    "cricsheet_id": null,
-    "method": "ambiguous"
+    "cricsheet_id": "2d140b79",
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-206",
     "full_name": "Shams Mulani",
     "cricsheet_id": "9d704f6f",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-207",
     "full_name": "Shivam Singh",
     "cricsheet_id": "e1d9ae9c",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-208",
@@ -1251,13 +1251,13 @@
     "source_record_key": "OFFICIAL-209",
     "full_name": "Mohammed Azharuddeen",
     "cricsheet_id": "4ae89f36",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-210",
     "full_name": "L.R Chethan",
     "cricsheet_id": "7ccfdbcb",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-211",
@@ -1269,7 +1269,7 @@
     "source_record_key": "OFFICIAL-212",
     "full_name": "Urvil Patel",
     "cricsheet_id": "cf59b3f0",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-213",
@@ -1281,7 +1281,7 @@
     "source_record_key": "OFFICIAL-214",
     "full_name": "Bipin Saurabh",
     "cricsheet_id": "4cb5e3d1",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-215",
@@ -1293,49 +1293,49 @@
     "source_record_key": "OFFICIAL-216",
     "full_name": "Money Grewal",
     "cricsheet_id": "ae78bc32",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-217",
     "full_name": "Ashwani Kumar",
     "cricsheet_id": "d45c29b1",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-218",
     "full_name": "Ishan Porel",
     "cricsheet_id": "fdf7491e",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-219",
     "full_name": "Abhilash Shetty",
-    "cricsheet_id": null,
-    "method": "ambiguous"
+    "cricsheet_id": "d0bec581",
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-220",
     "full_name": "Akash Singh",
     "cricsheet_id": "b483905d",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-221",
     "full_name": "Gurjapneet Singh",
     "cricsheet_id": "cc61ee8f",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-222",
     "full_name": "Basil Thampi",
     "cricsheet_id": "871e9faf",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-223",
     "full_name": "Murugan Ashwin",
     "cricsheet_id": "e2db2409",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-224",
@@ -1347,19 +1347,19 @@
     "source_record_key": "OFFICIAL-225",
     "full_name": "Chintal Gandhi",
     "cricsheet_id": "c5eff91b",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-226",
     "full_name": "Raghav Goyal",
-    "cricsheet_id": null,
-    "method": "ambiguous"
+    "cricsheet_id": "266849c1",
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-227",
     "full_name": "Jagadeesha Suchith",
     "cricsheet_id": "4125d931",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-228",
@@ -1377,49 +1377,49 @@
     "source_record_key": "OFFICIAL-230",
     "full_name": "Sediqullah Atal",
     "cricsheet_id": "3c28853f",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-231",
     "full_name": "Matthew Breetzke",
     "cricsheet_id": "35f173a0",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-232",
     "full_name": "Mark Chapman",
     "cricsheet_id": "7fa12533",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-233",
     "full_name": "Brandon King",
     "cricsheet_id": "7fca84b7",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-234",
     "full_name": "Evin Lewis",
-    "cricsheet_id": null,
-    "method": "ambiguous"
+    "cricsheet_id": "0ebfb1ad",
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-235",
     "full_name": "Pathum Nissanka",
     "cricsheet_id": "8ee36b18",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-236",
     "full_name": "Bhanuka Rajapaksa",
     "cricsheet_id": "6c882e9a",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-237",
     "full_name": "Steve Smith",
-    "cricsheet_id": null,
-    "method": "ambiguous"
+    "cricsheet_id": "30a45b23",
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-238",
@@ -1431,133 +1431,133 @@
     "source_record_key": "OFFICIAL-239",
     "full_name": "Tom Curran",
     "cricsheet_id": "e86754b2",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-240",
     "full_name": "Krishnappa Gowtham",
     "cricsheet_id": "90de905a",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-241",
     "full_name": "Mohammad Nabi",
     "cricsheet_id": "62af8546",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-242",
     "full_name": "Gulbadin Naib",
     "cricsheet_id": "9f77963a",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-243",
     "full_name": "Sikandar Raza",
     "cricsheet_id": "26d041c4",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-244",
     "full_name": "Mitchell Santner",
     "cricsheet_id": "e4a0deae",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-245",
     "full_name": "Jayant Yadav",
     "cricsheet_id": "81049310",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-246",
     "full_name": "Johnson Charles",
     "cricsheet_id": "09a9d073",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-247",
     "full_name": "Litton Das",
     "cricsheet_id": "0404d43c",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-248",
     "full_name": "Andre Fletcher",
     "cricsheet_id": "1bae756b",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-249",
     "full_name": "Tom Latham",
     "cricsheet_id": "e824e6ee",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-250",
     "full_name": "Ollie Pope",
     "cricsheet_id": "e94bc520",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-251",
     "full_name": "Kyle Verreynne",
     "cricsheet_id": "bf814547",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-252",
     "full_name": "Fazalhaq Farooqi",
     "cricsheet_id": "e9c7f0d0",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-253",
     "full_name": "Richard Gleeson",
     "cricsheet_id": "402f8494",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-254",
     "full_name": "Matt Henry",
-    "cricsheet_id": null,
-    "method": "ambiguous"
+    "cricsheet_id": "e84ac20c",
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-255",
     "full_name": "Alzarri Joseph",
     "cricsheet_id": "b0946605",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-256",
     "full_name": "Kwena Maphaka",
     "cricsheet_id": "107c26fb",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-257",
     "full_name": "Kuldeep Sen",
     "cricsheet_id": "2e78f685",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-258",
     "full_name": "Reece Topley",
     "cricsheet_id": "8db7f47f",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-259",
     "full_name": "Lizaad Williams",
     "cricsheet_id": "a1d95bd8",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-260",
     "full_name": "Luke Wood",
     "cricsheet_id": "65b6943c",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-261",
@@ -1575,13 +1575,13 @@
     "source_record_key": "OFFICIAL-263",
     "full_name": "Ashwin Hebbar",
     "cricsheet_id": "b11d8647",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-264",
     "full_name": "Rohan Kunnummal",
     "cricsheet_id": "a6004ded",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-265",
@@ -1593,7 +1593,7 @@
     "source_record_key": "OFFICIAL-266",
     "full_name": "Akshat Raghuwanshi",
     "cricsheet_id": "d8d67045",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-267",
@@ -1605,43 +1605,43 @@
     "source_record_key": "OFFICIAL-268",
     "full_name": "Virat Singh",
     "cricsheet_id": "26d76ad9",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-269",
     "full_name": "Priyansh Arya",
     "cricsheet_id": "b5797845",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-270",
     "full_name": "Manoj Bhandage",
     "cricsheet_id": "e96801ea",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-271",
     "full_name": "Pravin Dubey",
     "cricsheet_id": "ed5a5510",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-272",
     "full_name": "Ajay Mandal",
     "cricsheet_id": "31ee319e",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-273",
     "full_name": "Prerak Mankad",
     "cricsheet_id": "663b5e34",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-274",
     "full_name": "Vipraj Nigam",
     "cricsheet_id": "5ffc0565",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-275",
@@ -1653,19 +1653,19 @@
     "source_record_key": "OFFICIAL-276",
     "full_name": "Shivalik Sharma",
     "cricsheet_id": "0ebaa16a",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-277",
     "full_name": "Salil Arora",
     "cricsheet_id": "d7423da1",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-278",
     "full_name": "Dinesh Bana",
     "cricsheet_id": "224fe44d",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-279",
@@ -1677,7 +1677,7 @@
     "source_record_key": "OFFICIAL-280",
     "full_name": "Narayan Jagadeesan",
     "cricsheet_id": "bd54eef5",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-281",
@@ -1689,19 +1689,19 @@
     "source_record_key": "OFFICIAL-282",
     "full_name": "Michael Pepper",
     "cricsheet_id": "270e4c23",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-283",
     "full_name": "Vishnu Solanki",
     "cricsheet_id": "2e802011",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-284",
     "full_name": "K.M Asif",
     "cricsheet_id": "798cc28e",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-285",
@@ -1713,7 +1713,7 @@
     "source_record_key": "OFFICIAL-286",
     "full_name": "Himanshu Chauhan",
     "cricsheet_id": "d05876fd",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-287",
@@ -1737,13 +1737,13 @@
     "source_record_key": "OFFICIAL-290",
     "full_name": "Prithviraj Yarra",
     "cricsheet_id": "cfa4bd2b",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-291",
     "full_name": "Shubham Agrawal",
     "cricsheet_id": "b51f72a5",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-292",
@@ -1755,25 +1755,25 @@
     "source_record_key": "OFFICIAL-293",
     "full_name": "Jasmer Dhankhar",
     "cricsheet_id": "a7e1f127",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-294",
     "full_name": "Pulkit Narang",
     "cricsheet_id": "9dc27cf0",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-295",
     "full_name": "Saumy Pandey",
-    "cricsheet_id": null,
-    "method": "ambiguous"
+    "cricsheet_id": "f8c7484e",
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-296",
     "full_name": "Mohit Rathee",
     "cricsheet_id": "9a5f2863",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-297",
@@ -1785,67 +1785,67 @@
     "source_record_key": "OFFICIAL-298",
     "full_name": "Towhid Hridoy",
     "cricsheet_id": "9e52a414",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-299",
     "full_name": "Mikyle Louis",
     "cricsheet_id": "1d8c298b",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-300",
     "full_name": "Harry Tector",
     "cricsheet_id": "59ea70a4",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-301",
     "full_name": "Rassie Van Der Dussen",
     "cricsheet_id": "9948e262",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-302",
     "full_name": "Will Young",
     "cricsheet_id": "8afe73e2",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-303",
     "full_name": "Najibullah Zadran",
     "cricsheet_id": "1212cbec",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-304",
     "full_name": "Ibrahim Zadran",
     "cricsheet_id": "d4550956",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-305",
     "full_name": "Sean Abbott",
     "cricsheet_id": "1a2676c5",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-306",
     "full_name": "Jacob Bethell",
     "cricsheet_id": "3c55c703",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-307",
     "full_name": "Brydon Carse",
     "cricsheet_id": "cad40f5e",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-308",
     "full_name": "Aaron Hardie",
     "cricsheet_id": "d405c0d5",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-309",
@@ -1857,7 +1857,7 @@
     "source_record_key": "OFFICIAL-310",
     "full_name": "Kyle Mayers",
     "cricsheet_id": "73c18486",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-311",
@@ -1868,26 +1868,26 @@
   {
     "source_record_key": "OFFICIAL-312",
     "full_name": "Matthew Short",
-    "cricsheet_id": null,
-    "method": "ambiguous"
+    "cricsheet_id": "a90e53ec",
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-313",
     "full_name": "Jason Behrendorff",
     "cricsheet_id": "4933f499",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-314",
     "full_name": "Dushmantha Chameera",
     "cricsheet_id": "327b58d3",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-315",
     "full_name": "Nathan Ellis",
     "cricsheet_id": "9eb1455b",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-316",
@@ -1899,79 +1899,79 @@
     "source_record_key": "OFFICIAL-317",
     "full_name": "Josh Little",
     "cricsheet_id": "9061a703",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-318",
     "full_name": "Shivam Mavi",
     "cricsheet_id": "c38d3503",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-319",
     "full_name": "Jhye Richardson",
     "cricsheet_id": "1ee08e9a",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-320",
     "full_name": "Navdeep Saini",
     "cricsheet_id": "21d4e29b",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-321",
     "full_name": "Tanmay Agarwal",
     "cricsheet_id": "e6e9b619",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-322",
     "full_name": "Amandeep Khare",
     "cricsheet_id": "6c6cc94c",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-323",
     "full_name": "Ayush Mhatre",
     "cricsheet_id": "b2b4f545",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-324",
     "full_name": "Salman Nizar",
     "cricsheet_id": "47ff3985",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-325",
     "full_name": "Aniket Verma",
     "cricsheet_id": "a3b0600d",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-326",
     "full_name": "Sumeet Verma",
     "cricsheet_id": "26b6a4e9",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-327",
     "full_name": "Manan Vohra",
     "cricsheet_id": "c03e2850",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-328",
     "full_name": "Samarth Vyas",
     "cricsheet_id": "34819e70",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-329",
     "full_name": "Raj Angad Bawa",
     "cricsheet_id": "ba6b2f91",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-330",
@@ -1983,7 +1983,7 @@
     "source_record_key": "OFFICIAL-331",
     "full_name": "Musheer Khan",
     "cricsheet_id": "d621b427",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-332",
@@ -1995,25 +1995,25 @@
     "source_record_key": "OFFICIAL-333",
     "full_name": "Mayank Rawat",
     "cricsheet_id": "2b801189",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-334",
     "full_name": "Suryansh Shedge",
     "cricsheet_id": "970ddd24",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-335",
     "full_name": "Hritik Shokeen",
     "cricsheet_id": "0c9652b0",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-336",
     "full_name": "Sonu Yadav",
     "cricsheet_id": "6ab96cc2",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-337",
@@ -2025,13 +2025,13 @@
     "source_record_key": "OFFICIAL-338",
     "full_name": "Anmol Malhotra",
     "cricsheet_id": "f59e9ac9",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-339",
     "full_name": "Pradosh Paul",
     "cricsheet_id": "75224f22",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-340",
@@ -2061,43 +2061,43 @@
     "source_record_key": "OFFICIAL-344",
     "full_name": "Saurabh Dubey",
     "cricsheet_id": "66317b81",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-345",
     "full_name": "Aaqib Khan",
     "cricsheet_id": "d290c5b5",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-346",
     "full_name": "Kulwant Khejroliya",
     "cricsheet_id": "fa2f1dde",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-347",
     "full_name": "Ankit Singh Rajpoot",
     "cricsheet_id": "db31895a",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-348",
     "full_name": "Divesh Sharma",
-    "cricsheet_id": null,
-    "method": "ambiguous"
+    "cricsheet_id": "cca4633d",
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-349",
     "full_name": "Naman Tiwari",
     "cricsheet_id": "97f44626",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-350",
     "full_name": "Prince Yadav",
     "cricsheet_id": "80b2fb19",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-351",
@@ -2109,7 +2109,7 @@
     "source_record_key": "OFFICIAL-352",
     "full_name": "Yuvraj Chudasama",
     "cricsheet_id": "20666746",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-353",
@@ -2127,7 +2127,7 @@
     "source_record_key": "OFFICIAL-355",
     "full_name": "Shivam Shukla",
     "cricsheet_id": "4de4c0e9",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-356",
@@ -2145,55 +2145,55 @@
     "source_record_key": "OFFICIAL-358",
     "full_name": "Qais Ahmad",
     "cricsheet_id": "8d5d991e",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-359",
     "full_name": "Charith Asalanka",
     "cricsheet_id": "732c038e",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-360",
     "full_name": "Michael Bracewell",
     "cricsheet_id": "e38bce7a",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-361",
     "full_name": "Gudakesh Motie",
     "cricsheet_id": "97bdec3d",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-362",
     "full_name": "Daniel Mousley",
     "cricsheet_id": "876dbe2d",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-363",
     "full_name": "Jamie Overton",
     "cricsheet_id": "59559bc2",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-364",
     "full_name": "Dunith Wellalage",
     "cricsheet_id": "736123bb",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-365",
     "full_name": "Ottneil Baartman",
     "cricsheet_id": "6b9eb501",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-366",
     "full_name": "Xavier Bartlett",
     "cricsheet_id": "3b53243a",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-367",
@@ -2205,31 +2205,31 @@
     "source_record_key": "OFFICIAL-368",
     "full_name": "Adam Milne",
     "cricsheet_id": "350bb1b1",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-369",
     "full_name": "Lungisani Ngidi",
     "cricsheet_id": "f834dcfc",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-370",
     "full_name": "William O'Rourke",
     "cricsheet_id": "cb9b8664",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-371",
     "full_name": "Chetan Sakariya",
     "cricsheet_id": "2cdce1be",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-372",
     "full_name": "Sandeep Warrier",
     "cricsheet_id": "cdc6bdba",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-373",
@@ -2247,25 +2247,25 @@
     "source_record_key": "OFFICIAL-375",
     "full_name": "Abhimanyu Easwaran",
     "cricsheet_id": "10b58586",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-376",
     "full_name": "Sudip Gharami",
     "cricsheet_id": "f7220198",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-377",
     "full_name": "Shubham Khajuria",
     "cricsheet_id": "d8a90827",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-378",
     "full_name": "Akhil Rawat",
     "cricsheet_id": null,
-    "method": "ambiguous"
+    "method": "duplicate_identity_rejected"
   },
   {
     "source_record_key": "OFFICIAL-379",
@@ -2283,19 +2283,19 @@
     "source_record_key": "OFFICIAL-381",
     "full_name": "K.C Cariappa",
     "cricsheet_id": "edb3d4f8",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-382",
     "full_name": "Yuvraj Chaudhary",
     "cricsheet_id": "1730e08e",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-383",
     "full_name": "Aman Khan",
     "cricsheet_id": "378daa89",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-384",
@@ -2307,19 +2307,19 @@
     "source_record_key": "OFFICIAL-385",
     "full_name": "Kamlesh Nagarkoti",
     "cricsheet_id": "b4f5c2d9",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-386",
     "full_name": "Hardik Raj",
     "cricsheet_id": "e5fa9ca2",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-387",
     "full_name": "Harsh Tyagi",
     "cricsheet_id": "4a15018a",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-388",
@@ -2331,25 +2331,25 @@
     "source_record_key": "OFFICIAL-389",
     "full_name": "Unmukt Chand",
     "cricsheet_id": "0c94f480",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-390",
     "full_name": "Tejasvi Dahiya",
     "cricsheet_id": "f12fe2a1",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-391",
     "full_name": "Sumit Ghadigaonkar",
     "cricsheet_id": "d2c05733",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-392",
     "full_name": "Baba Indrajith",
     "cricsheet_id": "ff1e68fa",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-393",
@@ -2361,7 +2361,7 @@
     "source_record_key": "OFFICIAL-394",
     "full_name": "Bhagmender Lather",
     "cricsheet_id": "44cb17b4",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-395",
@@ -2372,8 +2372,8 @@
   {
     "source_record_key": "OFFICIAL-396",
     "full_name": "Ali Khan",
-    "cricsheet_id": null,
-    "method": "ambiguous"
+    "cricsheet_id": "b0eaaac6",
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-397",
@@ -2391,7 +2391,7 @@
     "source_record_key": "OFFICIAL-399",
     "full_name": "Vidyadhar Patil",
     "cricsheet_id": "30fc60b5",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-400",
@@ -2403,13 +2403,13 @@
     "source_record_key": "OFFICIAL-401",
     "full_name": "Abhinandan Singh",
     "cricsheet_id": "82c10dac",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-402",
     "full_name": "Cooper Connolly",
     "cricsheet_id": "fe366f34",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-403",
@@ -2421,73 +2421,73 @@
     "source_record_key": "OFFICIAL-404",
     "full_name": "Jason Holder",
     "cricsheet_id": "0f721006",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-405",
     "full_name": "Karim Janat",
     "cricsheet_id": "62175638",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-406",
     "full_name": "Jimmy Neesham",
     "cricsheet_id": "9219eff0",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-407",
     "full_name": "Daniel Sams",
     "cricsheet_id": "caf69bf7",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-408",
     "full_name": "William Sutherland",
     "cricsheet_id": "bc2d4f2e",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-409",
     "full_name": "Taskin Ahmed",
     "cricsheet_id": "ef18b66e",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-410",
     "full_name": "Ben Dwarshuis",
     "cricsheet_id": "e1b9f3a9",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-411",
     "full_name": "Obed McCoy",
     "cricsheet_id": "529eb9e0",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-412",
     "full_name": "Riley Meredith",
     "cricsheet_id": "64775749",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-413",
     "full_name": "Lance Morris",
     "cricsheet_id": "b08e58e2",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-414",
     "full_name": "Olly Stone",
     "cricsheet_id": "3f659464",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-415",
     "full_name": "Daniel Worrall",
     "cricsheet_id": "208f22ea",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-416",
@@ -2517,37 +2517,37 @@
     "source_record_key": "OFFICIAL-420",
     "full_name": "Sarthak Ranjan",
     "cricsheet_id": "d7cdefa9",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-421",
     "full_name": "Abhijeet Tomar",
     "cricsheet_id": "aa5d8c9e",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-422",
     "full_name": "Krish Bhagat",
     "cricsheet_id": "e48a4814",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-423",
     "full_name": "Sohraab Dhaliwal",
     "cricsheet_id": "564714f5",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-424",
     "full_name": "Harsh Dubey",
     "cricsheet_id": "25228673",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-425",
     "full_name": "Ramakrishna Ghosh",
-    "cricsheet_id": null,
-    "method": "ambiguous"
+    "cricsheet_id": "dee07622",
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-426",
@@ -2559,19 +2559,19 @@
     "source_record_key": "OFFICIAL-427",
     "full_name": "Ninad Rathva",
     "cricsheet_id": "8f607eea",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-428",
     "full_name": "Vivrant Sharma",
     "cricsheet_id": "1b7b0fa7",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-429",
     "full_name": "Shiva Singh",
     "cricsheet_id": "3b63b5cc",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-430",
@@ -2589,19 +2589,19 @@
     "source_record_key": "OFFICIAL-432",
     "full_name": "Anshuman Hooda",
     "cricsheet_id": "e4072aa1",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-433",
     "full_name": "Siddharth Kaul",
     "cricsheet_id": "dcf81436",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-434",
     "full_name": "Prashant Sai Painkra",
     "cricsheet_id": "6cdc3215",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-435",
@@ -2619,85 +2619,85 @@
     "source_record_key": "OFFICIAL-437",
     "full_name": "Zak Foulkes",
     "cricsheet_id": "30f92334",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-438",
     "full_name": "Chris Green",
     "cricsheet_id": "19b9f399",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-439",
     "full_name": "Shakib Al Hasan",
     "cricsheet_id": "7dc35884",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-440",
     "full_name": "Mehidy Hasan Miraz",
     "cricsheet_id": "c58b0108",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-441",
     "full_name": "Wiaan Mulder",
     "cricsheet_id": "c96f6ac5",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-442",
     "full_name": "Dwaine Pretorius",
     "cricsheet_id": "11614d87",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-443",
     "full_name": "Dasun Shanaka",
     "cricsheet_id": "3ff033bb",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-444",
     "full_name": "Shoriful Islam",
     "cricsheet_id": "bb34fd31",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-445",
     "full_name": "Blessing Muzarabani",
     "cricsheet_id": "449f4e3c",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-446",
     "full_name": "Matthew Potts",
     "cricsheet_id": "894b2d25",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-447",
     "full_name": "Tanzim Hasan Sakib",
     "cricsheet_id": "0b0cc297",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-448",
     "full_name": "Benjamin Sears",
     "cricsheet_id": "e1891e00",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-449",
     "full_name": "Tim Southee",
     "cricsheet_id": "13c35c9e",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-450",
     "full_name": "John Turner",
-    "cricsheet_id": null,
-    "method": "ambiguous"
+    "cricsheet_id": "cdd875d9",
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-451",
@@ -2709,13 +2709,13 @@
     "source_record_key": "OFFICIAL-452",
     "full_name": "Oliver Davies",
     "cricsheet_id": "0ea54eca",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-453",
     "full_name": "Bevan John Jacobs",
-    "cricsheet_id": null,
-    "method": "ambiguous"
+    "cricsheet_id": "972f217b",
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-454",
@@ -2745,49 +2745,49 @@
     "source_record_key": "OFFICIAL-458",
     "full_name": "Brandon McMullen",
     "cricsheet_id": "436c763a",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-459",
     "full_name": "S. Midhun",
     "cricsheet_id": "ade90de7",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-460",
     "full_name": "Abid Mushtaq",
-    "cricsheet_id": null,
-    "method": "ambiguous"
+    "cricsheet_id": "b10e8c85",
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-461",
     "full_name": "Mahesh Pithiya",
     "cricsheet_id": "1c29d51f",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-462",
     "full_name": "Maramreddy Reddy",
     "cricsheet_id": "791c088d",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-463",
     "full_name": "Atit Sheth",
     "cricsheet_id": "4312e8f9",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-464",
     "full_name": "Jonty Sidhu",
     "cricsheet_id": "b3309131",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-465",
     "full_name": "Mohit Avasthi",
     "cricsheet_id": "7e83cef2",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-466",
@@ -2799,13 +2799,13 @@
     "source_record_key": "OFFICIAL-467",
     "full_name": "Praful Hinge",
     "cricsheet_id": "ece7b6b3",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-468",
     "full_name": "Pankaj Jaswal",
     "cricsheet_id": "3bc10d5b",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-469",
@@ -2817,37 +2817,37 @@
     "source_record_key": "OFFICIAL-470",
     "full_name": "Ashok Sharma",
     "cricsheet_id": "50c09020",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-471",
     "full_name": "Mujtaba Yousuf",
     "cricsheet_id": "f5c9b42c",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-472",
     "full_name": "Ashton Agar",
     "cricsheet_id": "a2421394",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-473",
     "full_name": "Roston Chase",
     "cricsheet_id": "3feda4fa",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-474",
     "full_name": "Junior Dala",
     "cricsheet_id": "1cb14aa4",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-475",
     "full_name": "Mahedi Hasan",
     "cricsheet_id": "9dad0f2e",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-476",
@@ -2859,7 +2859,7 @@
     "source_record_key": "OFFICIAL-477",
     "full_name": "Dan Lawrence",
     "cricsheet_id": "4b685e2d",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-478",
@@ -2871,55 +2871,55 @@
     "source_record_key": "OFFICIAL-479",
     "full_name": "James Anderson",
     "cricsheet_id": "d12143bf",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-480",
     "full_name": "Kyle Jamieson",
     "cricsheet_id": "68c56d09",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-481",
     "full_name": "Chris Jordan",
     "cricsheet_id": "ffe699c0",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-482",
     "full_name": "Hasan Mahmud",
     "cricsheet_id": "80ad39ac",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-483",
     "full_name": "Tymal Mills",
     "cricsheet_id": "245c97cb",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-484",
     "full_name": "David Payne",
     "cricsheet_id": "6c79c098",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-485",
     "full_name": "Nahid Rana",
     "cricsheet_id": "5318ee68",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-486",
     "full_name": "Prayas Ray Barman",
     "cricsheet_id": "441c72ae",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-487",
     "full_name": "Jafar Jamal",
     "cricsheet_id": "37940451",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-488",
@@ -2931,7 +2931,7 @@
     "source_record_key": "OFFICIAL-489",
     "full_name": "Kaushik Maity",
     "cricsheet_id": "93b430e8",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-490",
@@ -2943,7 +2943,7 @@
     "source_record_key": "OFFICIAL-491",
     "full_name": "Vaibhav Suryavanshi",
     "cricsheet_id": "470f446b",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-492",
@@ -2955,49 +2955,49 @@
     "source_record_key": "OFFICIAL-493",
     "full_name": "Writtick Chatterjee",
     "cricsheet_id": "a00e1842",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-494",
     "full_name": "Prerit Dutta",
     "cricsheet_id": "0fdb1546",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-495",
     "full_name": "Rajneesh Gurbani",
     "cricsheet_id": "bcaf7d33",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-496",
     "full_name": "Shubhang Hegde",
     "cricsheet_id": "4fc7fc34",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-497",
     "full_name": "Saransh Jain",
     "cricsheet_id": "de33074a",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-498",
     "full_name": "Ripal Patel",
     "cricsheet_id": "60500956",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-499",
     "full_name": "Akash Vashisht",
     "cricsheet_id": "35ccfdd4",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-500",
     "full_name": "Anirudh Kanwar",
     "cricsheet_id": "6c8e4b0a",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-501",
@@ -3009,13 +3009,13 @@
     "source_record_key": "OFFICIAL-502",
     "full_name": "Atif Mushtaq",
     "cricsheet_id": null,
-    "method": "ambiguous"
+    "method": "duplicate_identity_rejected"
   },
   {
     "source_record_key": "OFFICIAL-503",
     "full_name": "Dipesh Parwani",
     "cricsheet_id": "eaf3f338",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-504",
@@ -3039,61 +3039,61 @@
     "source_record_key": "OFFICIAL-507",
     "full_name": "Alick Athanaze",
     "cricsheet_id": "58c2fac4",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-508",
     "full_name": "Hilton Cartwright",
     "cricsheet_id": "ab965cad",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-509",
     "full_name": "Dominic Drakes",
     "cricsheet_id": "34b332d3",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-510",
     "full_name": "Daryn Dupavillon",
     "cricsheet_id": "7cb2d9d2",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-511",
     "full_name": "Matthew Forde",
     "cricsheet_id": "83d17bbc",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-512",
     "full_name": "Patrick Kruger",
     "cricsheet_id": "39181592",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-513",
     "full_name": "Lahiru Kumara",
     "cricsheet_id": "4751caa3",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-514",
     "full_name": "Michael Neser",
     "cricsheet_id": "0164b064",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-515",
     "full_name": "Richard Ngarava",
     "cricsheet_id": "6e3f5a5c",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-516",
     "full_name": "Wayne Parnell",
     "cricsheet_id": "3a60e0b5",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-517",
@@ -3104,14 +3104,14 @@
   {
     "source_record_key": "OFFICIAL-518",
     "full_name": "Odean Smith",
-    "cricsheet_id": null,
-    "method": "ambiguous"
+    "cricsheet_id": "23cca426",
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-519",
     "full_name": "Andrew Tye",
     "cricsheet_id": "7c7d63a2",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-520",
@@ -3123,7 +3123,7 @@
     "source_record_key": "OFFICIAL-521",
     "full_name": "Corbin Bosch",
     "cricsheet_id": "172dff15",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-522",
@@ -3135,19 +3135,19 @@
     "source_record_key": "OFFICIAL-523",
     "full_name": "Mukhtar Hussain",
     "cricsheet_id": "97114e80",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-524",
     "full_name": "Girinath Reddy",
     "cricsheet_id": "5d3d423a",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-525",
     "full_name": "Jalaj Saxena",
     "cricsheet_id": "249abedf",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-526",
@@ -3171,7 +3171,7 @@
     "source_record_key": "OFFICIAL-529",
     "full_name": "Eshan Malinga",
     "cricsheet_id": "5750bcb4",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-530",
@@ -3189,7 +3189,7 @@
     "source_record_key": "OFFICIAL-532",
     "full_name": "Dumindu Sewmina",
     "cricsheet_id": "702c6afb",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-533",
@@ -3201,13 +3201,13 @@
     "source_record_key": "OFFICIAL-534",
     "full_name": "Vasu Vats",
     "cricsheet_id": "1afd4f89",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-535",
     "full_name": "Umang Kumar",
     "cricsheet_id": "2fda74a2",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-536",
@@ -3219,25 +3219,25 @@
     "source_record_key": "OFFICIAL-537",
     "full_name": "Atharva Ankolekar",
     "cricsheet_id": "d6cd318e",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-538",
     "full_name": "Vaisakh Chandran",
     "cricsheet_id": "c5215e7c",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-539",
     "full_name": "Auqib Dar",
-    "cricsheet_id": null,
-    "method": "ambiguous"
+    "cricsheet_id": "7c3c0337",
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-540",
     "full_name": "Rohit Rayudu",
     "cricsheet_id": "b4587494",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-541",
@@ -3255,7 +3255,7 @@
     "source_record_key": "OFFICIAL-543",
     "full_name": "Baba Aparajith",
     "cricsheet_id": "5b627626",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-544",
@@ -3267,13 +3267,13 @@
     "source_record_key": "OFFICIAL-545",
     "full_name": "Nishunk Birla",
     "cricsheet_id": "376025f1",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-546",
     "full_name": "Digvijay Deshmukh",
     "cricsheet_id": "ddc7a53d",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-547",
@@ -3308,8 +3308,8 @@
   {
     "source_record_key": "OFFICIAL-552",
     "full_name": "Ben Howell",
-    "cricsheet_id": null,
-    "method": "ambiguous"
+    "cricsheet_id": "0bec3a6c",
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-553",
@@ -3321,7 +3321,7 @@
     "source_record_key": "OFFICIAL-554",
     "full_name": "Rohan Rana",
     "cricsheet_id": "9ffb7550",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-555",
@@ -3333,13 +3333,13 @@
     "source_record_key": "OFFICIAL-556",
     "full_name": "Pratham Singh",
     "cricsheet_id": "f9f21866",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-557",
     "full_name": "Tripurana Vijay",
     "cricsheet_id": "51ec3919",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-558",
@@ -3363,7 +3363,7 @@
     "source_record_key": "OFFICIAL-561",
     "full_name": "Gaurav Gambhir",
     "cricsheet_id": "242a9261",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-562",
@@ -3381,25 +3381,25 @@
     "source_record_key": "OFFICIAL-564",
     "full_name": "Sairaj Patil",
     "cricsheet_id": "79b35258",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-565",
     "full_name": "Madhav Tiwari",
     "cricsheet_id": "fb5f69e4",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-566",
     "full_name": "Kamal Tripathi",
     "cricsheet_id": "cd3dd36e",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-567",
     "full_name": "Prashant Chauhan",
     "cricsheet_id": "c7375760",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-568",
@@ -3417,25 +3417,25 @@
     "source_record_key": "OFFICIAL-570",
     "full_name": "Khrievitso Kense",
     "cricsheet_id": "2597e56b",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-571",
     "full_name": "Akash Parkar",
     "cricsheet_id": "f992200b",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-572",
     "full_name": "Vignesh Puthur",
     "cricsheet_id": "1e030637",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "OFFICIAL-573",
     "full_name": "Tripuresh Singh",
     "cricsheet_id": "3c29632a",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "OFFICIAL-574",
@@ -3447,55 +3447,55 @@
     "source_record_key": "M0-01",
     "full_name": "Ruturaj Gaikwad",
     "cricsheet_id": "45a43fe2",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "M0-02",
     "full_name": "Matheesha Pathirana",
     "cricsheet_id": "64839cb3",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "M0-03",
     "full_name": "Shivam Dube",
     "cricsheet_id": "a4e37e47",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "M0-04",
     "full_name": "Ravindra Jadeja",
     "cricsheet_id": "fe93fd9d",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "M0-05",
     "full_name": "MS Dhoni",
     "cricsheet_id": "4a8a2e3b",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "M0-06",
     "full_name": "Axar Patel",
     "cricsheet_id": "2e171977",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "M0-07",
     "full_name": "Kuldeep Yadav",
     "cricsheet_id": "8d2c70ad",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "M0-08",
     "full_name": "Tristan Stubbs",
     "cricsheet_id": "85b3fab2",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "M0-09",
     "full_name": "Abishek Porel",
     "cricsheet_id": "ad3b6e95",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "M0-10",
@@ -3507,7 +3507,7 @@
     "source_record_key": "M0-11",
     "full_name": "Shubman Gill",
     "cricsheet_id": "b4b99816",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "M0-12",
@@ -3519,19 +3519,19 @@
     "source_record_key": "M0-13",
     "full_name": "Rahul Tewatia",
     "cricsheet_id": "39a2dfa8",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "M0-14",
     "full_name": "Shahrukh Khan",
     "cricsheet_id": "7dcb9bc9",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "M0-15",
     "full_name": "Rinku Singh",
     "cricsheet_id": "0a509d6b",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "M0-16",
@@ -3543,43 +3543,43 @@
     "source_record_key": "M0-17",
     "full_name": "Sunil Narine",
     "cricsheet_id": "9d430b40",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "M0-18",
     "full_name": "Andre Russell",
     "cricsheet_id": "bbd41817",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "M0-19",
     "full_name": "Harshit Rana",
     "cricsheet_id": "77b1aa15",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "M0-20",
     "full_name": "Ramandeep Singh",
     "cricsheet_id": "be24ead0",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "M0-21",
     "full_name": "Nicholas Pooran",
     "cricsheet_id": "3241e3fd",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "M0-22",
     "full_name": "Ravi Bishnoi",
     "cricsheet_id": "df064e1a",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "M0-23",
     "full_name": "Mayank Yadav",
-    "cricsheet_id": null,
-    "method": "ambiguous"
+    "cricsheet_id": "b1ad996b",
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "M0-24",
@@ -3591,13 +3591,13 @@
     "source_record_key": "M0-25",
     "full_name": "Ayush Badoni",
     "cricsheet_id": "872b03f7",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "M0-26",
     "full_name": "Jasprit Bumrah",
     "cricsheet_id": "462411b3",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "M0-27",
@@ -3609,7 +3609,7 @@
     "source_record_key": "M0-28",
     "full_name": "Hardik Pandya",
     "cricsheet_id": "dbe50b21",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "M0-29",
@@ -3621,97 +3621,97 @@
     "source_record_key": "M0-30",
     "full_name": "Tilak Varma",
     "cricsheet_id": "b0482a1d",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "M0-31",
     "full_name": "Shashank Singh",
     "cricsheet_id": "26989d80",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "M0-32",
     "full_name": "Prabhsimran Singh",
     "cricsheet_id": "9418198b",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "M0-33",
     "full_name": "Sanju Samson",
     "cricsheet_id": "a4cc73aa",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "M0-34",
     "full_name": "Yashasvi Jaiswal",
     "cricsheet_id": "6c19c6e5",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "M0-35",
     "full_name": "Riyan Parag",
     "cricsheet_id": "04a418e8",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "M0-36",
     "full_name": "Dhruv Jurel",
     "cricsheet_id": "bcf325d2",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "M0-37",
     "full_name": "Shimron Hetmyer",
     "cricsheet_id": "48a1d7b7",
-    "method": "surname_initial"
+    "method": "surname_initial_active"
   },
   {
     "source_record_key": "M0-38",
     "full_name": "Sandeep Sharma",
     "cricsheet_id": "ce820073",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "M0-39",
     "full_name": "Virat Kohli",
     "cricsheet_id": "ba607b88",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "M0-40",
     "full_name": "Rajat Patidar",
     "cricsheet_id": "c740ea83",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "M0-41",
     "full_name": "Yash Dayal",
     "cricsheet_id": "7210d461",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "M0-42",
     "full_name": "Heinrich Klaasen",
     "cricsheet_id": "235c2bb6",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "M0-43",
     "full_name": "Pat Cummins",
     "cricsheet_id": "ded9240e",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "M0-44",
     "full_name": "Abhishek Sharma",
     "cricsheet_id": "f29185a1",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "M0-45",
     "full_name": "Travis Head",
     "cricsheet_id": "12b610c2",
-    "method": "exact"
+    "method": "exact_active"
   },
   {
     "source_record_key": "M0-46",
