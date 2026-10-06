@@ -10,553 +10,553 @@
     "official_set_no": 1,
     "official_set_code": "M1",
     "display_name": "M1",
-    "set_order": 3,
+    "set_order": 1,
     "player_count": 6
   },
   {
     "official_set_no": 2,
     "official_set_code": "M2",
     "display_name": "M2",
-    "set_order": 4,
+    "set_order": 2,
     "player_count": 6
   },
   {
     "official_set_no": 3,
     "official_set_code": "BA1",
     "display_name": "BA1",
-    "set_order": 5,
+    "set_order": 3,
     "player_count": 7
   },
   {
     "official_set_no": 4,
     "official_set_code": "AL1",
     "display_name": "AL1",
-    "set_order": 6,
+    "set_order": 4,
     "player_count": 7
   },
   {
     "official_set_no": 5,
     "official_set_code": "WK1",
     "display_name": "WK1",
-    "set_order": 7,
+    "set_order": 5,
     "player_count": 6
   },
   {
     "official_set_no": 6,
     "official_set_code": "FA1",
     "display_name": "FA1",
-    "set_order": 8,
+    "set_order": 6,
     "player_count": 7
   },
   {
     "official_set_no": 7,
     "official_set_code": "SP1",
     "display_name": "SP1",
-    "set_order": 9,
+    "set_order": 7,
     "player_count": 6
   },
   {
     "official_set_no": 8,
     "official_set_code": "UBA1",
     "display_name": "UBA1",
-    "set_order": 10,
+    "set_order": 8,
     "player_count": 7
   },
   {
     "official_set_no": 9,
     "official_set_code": "UAL1",
     "display_name": "UAL1",
-    "set_order": 11,
+    "set_order": 9,
     "player_count": 9
   },
   {
     "official_set_no": 10,
     "official_set_code": "UWK1",
     "display_name": "UWK1",
-    "set_order": 12,
+    "set_order": 10,
     "player_count": 7
   },
   {
     "official_set_no": 11,
     "official_set_code": "UFA1",
     "display_name": "UFA1",
-    "set_order": 13,
+    "set_order": 11,
     "player_count": 8
   },
   {
     "official_set_no": 12,
     "official_set_code": "USP1",
     "display_name": "USP1",
-    "set_order": 14,
+    "set_order": 12,
     "player_count": 7
   },
   {
     "official_set_no": 13,
     "official_set_code": "BA2",
     "display_name": "BA2",
-    "set_order": 15,
+    "set_order": 13,
     "player_count": 7
   },
   {
     "official_set_no": 14,
     "official_set_code": "AL2",
     "display_name": "AL2",
-    "set_order": 16,
+    "set_order": 14,
     "player_count": 7
   },
   {
     "official_set_no": 15,
     "official_set_code": "WK2",
     "display_name": "WK2",
-    "set_order": 17,
+    "set_order": 15,
     "player_count": 6
   },
   {
     "official_set_no": 16,
     "official_set_code": "FA2",
     "display_name": "FA2",
-    "set_order": 18,
+    "set_order": 16,
     "player_count": 7
   },
   {
     "official_set_no": 17,
     "official_set_code": "SP2",
     "display_name": "SP2",
-    "set_order": 19,
+    "set_order": 17,
     "player_count": 6
   },
   {
     "official_set_no": 18,
     "official_set_code": "UBA2",
     "display_name": "UBA2",
-    "set_order": 20,
+    "set_order": 18,
     "player_count": 8
   },
   {
     "official_set_no": 19,
     "official_set_code": "UAL2",
     "display_name": "UAL2",
-    "set_order": 21,
+    "set_order": 19,
     "player_count": 8
   },
   {
     "official_set_no": 20,
     "official_set_code": "UWK2",
     "display_name": "UWK2",
-    "set_order": 22,
+    "set_order": 20,
     "player_count": 7
   },
   {
     "official_set_no": 21,
     "official_set_code": "UFA2",
     "display_name": "UFA2",
-    "set_order": 23,
+    "set_order": 21,
     "player_count": 7
   },
   {
     "official_set_no": 22,
     "official_set_code": "USP2",
     "display_name": "USP2",
-    "set_order": 24,
+    "set_order": 22,
     "player_count": 7
   },
   {
     "official_set_no": 23,
     "official_set_code": "BA3",
     "display_name": "BA3",
-    "set_order": 25,
+    "set_order": 23,
     "player_count": 8
   },
   {
     "official_set_no": 24,
     "official_set_code": "AL3",
     "display_name": "AL3",
-    "set_order": 26,
+    "set_order": 24,
     "player_count": 8
   },
   {
     "official_set_no": 25,
     "official_set_code": "WK3",
     "display_name": "WK3",
-    "set_order": 27,
+    "set_order": 25,
     "player_count": 8
   },
   {
     "official_set_no": 26,
     "official_set_code": "FA3",
     "display_name": "FA3",
-    "set_order": 28,
+    "set_order": 26,
     "player_count": 9
   },
   {
     "official_set_no": 27,
     "official_set_code": "SP3",
     "display_name": "SP3",
-    "set_order": 29,
+    "set_order": 27,
     "player_count": 6
   },
   {
     "official_set_no": 28,
     "official_set_code": "UBA3",
     "display_name": "UBA3",
-    "set_order": 30,
+    "set_order": 28,
     "player_count": 8
   },
   {
     "official_set_no": 29,
     "official_set_code": "UAL3",
     "display_name": "UAL3",
-    "set_order": 31,
+    "set_order": 29,
     "player_count": 8
   },
   {
     "official_set_no": 30,
     "official_set_code": "UWK3",
     "display_name": "UWK3",
-    "set_order": 32,
+    "set_order": 30,
     "player_count": 7
   },
   {
     "official_set_no": 31,
     "official_set_code": "UFA3",
     "display_name": "UFA3",
-    "set_order": 33,
+    "set_order": 31,
     "player_count": 7
   },
   {
     "official_set_no": 32,
     "official_set_code": "USP3",
     "display_name": "USP3",
-    "set_order": 34,
+    "set_order": 32,
     "player_count": 7
   },
   {
     "official_set_no": 33,
     "official_set_code": "BA4",
     "display_name": "BA4",
-    "set_order": 35,
+    "set_order": 33,
     "player_count": 8
   },
   {
     "official_set_no": 34,
     "official_set_code": "AL4",
     "display_name": "AL4",
-    "set_order": 36,
+    "set_order": 34,
     "player_count": 8
   },
   {
     "official_set_no": 35,
     "official_set_code": "WK4",
     "display_name": "WK4",
-    "set_order": 37,
+    "set_order": 35,
     "player_count": 6
   },
   {
     "official_set_no": 36,
     "official_set_code": "FA4",
     "display_name": "FA4",
-    "set_order": 38,
+    "set_order": 36,
     "player_count": 9
   },
   {
     "official_set_no": 37,
     "official_set_code": "UBA4",
     "display_name": "UBA4",
-    "set_order": 39,
+    "set_order": 37,
     "player_count": 8
   },
   {
     "official_set_no": 38,
     "official_set_code": "UAL4",
     "display_name": "UAL4",
-    "set_order": 40,
+    "set_order": 38,
     "player_count": 8
   },
   {
     "official_set_no": 39,
     "official_set_code": "UWK4",
     "display_name": "UWK4",
-    "set_order": 41,
+    "set_order": 39,
     "player_count": 7
   },
   {
     "official_set_no": 40,
     "official_set_code": "UFA4",
     "display_name": "UFA4",
-    "set_order": 42,
+    "set_order": 40,
     "player_count": 7
   },
   {
     "official_set_no": 41,
     "official_set_code": "USP4",
     "display_name": "USP4",
-    "set_order": 43,
+    "set_order": 41,
     "player_count": 7
   },
   {
     "official_set_no": 42,
     "official_set_code": "BA5",
     "display_name": "BA5",
-    "set_order": 44,
+    "set_order": 42,
     "player_count": 7
   },
   {
     "official_set_no": 43,
     "official_set_code": "AL5",
     "display_name": "AL5",
-    "set_order": 45,
+    "set_order": 43,
     "player_count": 8
   },
   {
     "official_set_no": 44,
     "official_set_code": "FA5",
     "display_name": "FA5",
-    "set_order": 46,
+    "set_order": 44,
     "player_count": 8
   },
   {
     "official_set_no": 45,
     "official_set_code": "UBA5",
     "display_name": "UBA5",
-    "set_order": 47,
+    "set_order": 45,
     "player_count": 8
   },
   {
     "official_set_no": 46,
     "official_set_code": "UAL5",
     "display_name": "UAL5",
-    "set_order": 48,
+    "set_order": 46,
     "player_count": 8
   },
   {
     "official_set_no": 47,
     "official_set_code": "UWK5",
     "display_name": "UWK5",
-    "set_order": 49,
+    "set_order": 47,
     "player_count": 7
   },
   {
     "official_set_no": 48,
     "official_set_code": "UFA5",
     "display_name": "UFA5",
-    "set_order": 50,
+    "set_order": 48,
     "player_count": 7
   },
   {
     "official_set_no": 49,
     "official_set_code": "USP5",
     "display_name": "USP5",
-    "set_order": 51,
+    "set_order": 49,
     "player_count": 7
   },
   {
     "official_set_no": 50,
     "official_set_code": "AL6",
     "display_name": "AL6",
-    "set_order": 52,
+    "set_order": 50,
     "player_count": 7
   },
   {
     "official_set_no": 51,
     "official_set_code": "FA6",
     "display_name": "FA6",
-    "set_order": 53,
+    "set_order": 51,
     "player_count": 8
   },
   {
     "official_set_no": 52,
     "official_set_code": "UBA6",
     "display_name": "UBA6",
-    "set_order": 54,
+    "set_order": 52,
     "player_count": 7
   },
   {
     "official_set_no": 53,
     "official_set_code": "UAL6",
     "display_name": "UAL6",
-    "set_order": 55,
+    "set_order": 53,
     "player_count": 8
   },
   {
     "official_set_no": 54,
     "official_set_code": "UWK6",
     "display_name": "UWK6",
-    "set_order": 56,
+    "set_order": 54,
     "player_count": 7
   },
   {
     "official_set_no": 55,
     "official_set_code": "UFA6",
     "display_name": "UFA6",
-    "set_order": 57,
+    "set_order": 55,
     "player_count": 7
   },
   {
     "official_set_no": 56,
     "official_set_code": "AL7",
     "display_name": "AL7",
-    "set_order": 58,
+    "set_order": 56,
     "player_count": 7
   },
   {
     "official_set_no": 57,
     "official_set_code": "FA7",
     "display_name": "FA7",
-    "set_order": 59,
+    "set_order": 57,
     "player_count": 7
   },
   {
     "official_set_no": 58,
     "official_set_code": "UBA7",
     "display_name": "UBA7",
-    "set_order": 60,
+    "set_order": 58,
     "player_count": 6
   },
   {
     "official_set_no": 59,
     "official_set_code": "UAL7",
     "display_name": "UAL7",
-    "set_order": 61,
+    "set_order": 59,
     "player_count": 8
   },
   {
     "official_set_no": 60,
     "official_set_code": "UFA7",
     "display_name": "UFA7",
-    "set_order": 62,
+    "set_order": 60,
     "player_count": 7
   },
   {
     "official_set_no": 61,
     "official_set_code": "AL8",
     "display_name": "AL8",
-    "set_order": 63,
+    "set_order": 61,
     "player_count": 7
   },
   {
     "official_set_no": 62,
     "official_set_code": "FA8",
     "display_name": "FA8",
-    "set_order": 64,
+    "set_order": 62,
     "player_count": 7
   },
   {
     "official_set_no": 63,
     "official_set_code": "UBA8",
     "display_name": "UBA8",
-    "set_order": 65,
+    "set_order": 63,
     "player_count": 6
   },
   {
     "official_set_no": 64,
     "official_set_code": "UAL8",
     "display_name": "UAL8",
-    "set_order": 66,
+    "set_order": 64,
     "player_count": 8
   },
   {
     "official_set_no": 65,
     "official_set_code": "UFA8",
     "display_name": "UFA8",
-    "set_order": 67,
+    "set_order": 65,
     "player_count": 7
   },
   {
     "official_set_no": 66,
     "official_set_code": "AL9",
     "display_name": "AL9",
-    "set_order": 68,
+    "set_order": 66,
     "player_count": 7
   },
   {
     "official_set_no": 67,
     "official_set_code": "FA9",
     "display_name": "FA9",
-    "set_order": 69,
+    "set_order": 67,
     "player_count": 7
   },
   {
     "official_set_no": 68,
     "official_set_code": "UBA9",
     "display_name": "UBA9",
-    "set_order": 70,
+    "set_order": 68,
     "player_count": 6
   },
   {
     "official_set_no": 69,
     "official_set_code": "UAL9",
     "display_name": "UAL9",
-    "set_order": 71,
+    "set_order": 69,
     "player_count": 8
   },
   {
     "official_set_no": 70,
     "official_set_code": "UFA9",
     "display_name": "UFA9",
-    "set_order": 72,
+    "set_order": 70,
     "player_count": 7
   },
   {
     "official_set_no": 72,
     "official_set_code": "AL10",
     "display_name": "AL10",
-    "set_order": 73,
+    "set_order": 71,
     "player_count": 8
   },
   {
     "official_set_no": 72,
     "official_set_code": "FA10",
     "display_name": "FA10",
-    "set_order": 74,
+    "set_order": 72,
     "player_count": 5
   },
   {
     "official_set_no": 73,
     "official_set_code": "UAL10",
     "display_name": "UAL10",
-    "set_order": 75,
+    "set_order": 73,
     "player_count": 8
   },
   {
     "official_set_no": 74,
     "official_set_code": "UFA10",
     "display_name": "UFA10",
-    "set_order": 76,
+    "set_order": 74,
     "player_count": 7
   },
   {
     "official_set_no": 75,
     "official_set_code": "UAL11",
     "display_name": "UAL11",
-    "set_order": 77,
+    "set_order": 75,
     "player_count": 8
   },
   {
     "official_set_no": 76,
     "official_set_code": "UAL12",
     "display_name": "UAL12",
-    "set_order": 78,
+    "set_order": 76,
     "player_count": 8
   },
   {
     "official_set_no": 77,
     "official_set_code": "UAL13",
     "display_name": "UAL13",
-    "set_order": 79,
+    "set_order": 77,
     "player_count": 8
   },
   {
     "official_set_no": 78,
     "official_set_code": "UAL14",
     "display_name": "UAL14",
-    "set_order": 80,
+    "set_order": 78,
     "player_count": 8
   },
   {
     "official_set_no": 79,
     "official_set_code": "UAL15",
     "display_name": "UAL15",
-    "set_order": 81,
+    "set_order": 79,
     "player_count": 8
   }
 ]

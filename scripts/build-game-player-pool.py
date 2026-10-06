@@ -41,7 +41,7 @@ set_counts = Counter(p["game_set_code"] for p in game)
 official_sets = [s for s in json.loads((ROOT / "auction_sets.json").read_text()) if s["official_set_code"] != "M0"]
 if set(p["official_set_code"] for p in official_sets) != set_counts.keys() - {"M0"}: raise SystemExit("set references do not resolve")
 sets = [{"official_set_no": 0, "official_set_code": "M0", "display_name": "MARQUEE", "set_order": 0, "player_count": 46}]
-sets += [{**s, "set_order": s["set_order"] + 1} for s in official_sets]
+sets += [{**s, "set_order": order} for order, s in enumerate(official_sets, start=1)]
 (ROOT / "game_players.json").write_text(json.dumps(game, indent=2, ensure_ascii=False) + "\n")
 (ROOT / "auction_sets.json").write_text(json.dumps(sets, indent=2) + "\n")
 def sql(value):

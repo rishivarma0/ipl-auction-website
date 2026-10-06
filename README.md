@@ -1,6 +1,6 @@
 # IPL Auction Website
 
-Phase 1 foundation for a realtime IPL Mega Auction experience.
+Phase 3 foundation for a secure realtime IPL Mega Auction experience.
 
 ## Routes
 
@@ -8,7 +8,7 @@ Phase 1 foundation for a realtime IPL Mega Auction experience.
 - `/create` create-room setup
 - `/join` join-room setup
 - `/lobby` waiting lobby
-- `/auction` Phase 1 auction-room shell
+- `/auction` secure realtime auction room with server-authoritative bids and host controls
 
 ## Local development
 
@@ -25,7 +25,7 @@ Do not commit real credentials. Copy `.env.example` to `.env.local` and fill in 
 
 ## Official auction data
 
-Phase 2 includes the 574-row structured IPL 2025 auction dataset in `data/ipl-2025-auction/players.json` plus deterministic `auction_sets.json`. The source row list and aggregate IPL reference are documented in that directory. Re-run `python3 scripts/parse-ipl-2025-auction.py` after supplying the source PDF locally; the parser fails on count, serial, set, overseas, or reserve-price mismatches rather than guessing.
+Phase 2 includes the 574-row structured IPL 2025 auction dataset plus 46 declared MARQUEE additions. The reproducible game pool in `data/ipl-2025-auction/game_players.json` contains 620 players and starts with M0 before the official sets. The source row list and aggregate IPL reference are documented in that directory. Re-run `python3 scripts/parse-ipl-2025-auction.py` after supplying the source PDF locally; the parser fails on count, serial, set, overseas, or reserve-price mismatches rather than guessing.
 
 Run the Phase 2 checks with:
 
