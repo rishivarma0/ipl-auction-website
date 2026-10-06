@@ -1,0 +1,889 @@
+{
+  "generated_at": "2026-10-06T12:38:38.777248+00:00",
+  "stats_as_of": "2026-09-17",
+  "cutoff": "2025-09-17",
+  "auction_players": 620,
+  "mapped": 471,
+  "unresolved": 64,
+  "ambiguous": 81,
+  "coverage": {
+    "IPL": 312,
+    "T20": 48,
+    "NO_VERIFIED_DATA": 260
+  },
+  "unresolved_players": [
+    {
+      "source_record_key": "OFFICIAL-76",
+      "full_name": "Vyshak Vijaykumar",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-84",
+      "full_name": "Mayank Agarawal",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-118",
+      "full_name": "Swastik Chhikara",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-133",
+      "full_name": "Avanish Aravelly",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-134",
+      "full_name": "Vansh Bedi",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-162",
+      "full_name": "Shahbaz Ahamad",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-188",
+      "full_name": "Zahir Khan Pakten",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-195",
+      "full_name": "Harnoor Pannu",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-198",
+      "full_name": "Andre Siddarth",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-201",
+      "full_name": "Yudhvir Charak",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-211",
+      "full_name": "Aryaman Singh Dhaliwal",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-215",
+      "full_name": "Tanay Thyagarajann",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-224",
+      "full_name": "Shreyas Chavan",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-228",
+      "full_name": "Roshan Waghsare",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-229",
+      "full_name": "Bailapudi Yeswanth",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-261",
+      "full_name": "Sachin Dhas",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-262",
+      "full_name": "Leus Du Plooy",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-267",
+      "full_name": "Shoun Roger",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-275",
+      "full_name": "Vicky Ostwal",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-279",
+      "full_name": "Ajitesh Guruswamy",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-287",
+      "full_name": "Arpit Guleria",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-288",
+      "full_name": "Nishanth Saranu",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-292",
+      "full_name": "Jass Inder Baidwan",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-330",
+      "full_name": "Emanjot Chahal",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-332",
+      "full_name": "Manvanth Kumar L",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-337",
+      "full_name": "S. Rithik Easwaran",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-351",
+      "full_name": "Kunal Singh Chibb",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-353",
+      "full_name": "Deepak Devadiga",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-354",
+      "full_name": "Ramesh Prasad",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-373",
+      "full_name": "Musaif Ajaz",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-380",
+      "full_name": "Abdul Bazith",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-388",
+      "full_name": "M. Ajnas",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-395",
+      "full_name": "Baltej Dhanda",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-403",
+      "full_name": "Dushan Hemantha",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-416",
+      "full_name": "Pyla Avinash",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-417",
+      "full_name": "Kiran Chormale",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-418",
+      "full_name": "Ashish Dahariya",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-419",
+      "full_name": "Tushar Raheja",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-426",
+      "full_name": "Raj Limbani",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-430",
+      "full_name": "Sayed Irfan Aftab",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-435",
+      "full_name": "Venkata Satyanarayana Penmetsa",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-436",
+      "full_name": "Yeddala Reddy",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-457",
+      "full_name": "Nasir Lone",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-466",
+      "full_name": "Faridoon Dawoodzai",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-492",
+      "full_name": "Kartik Chadha",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-501",
+      "full_name": "Shubham Kapse",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-520",
+      "full_name": "Ajay Ahlawat",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-522",
+      "full_name": "Mayank Gusain",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-528",
+      "full_name": "Vishal Godara",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-530",
+      "full_name": "Samarth Nagraj",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-541",
+      "full_name": "Uday Saharan",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-542",
+      "full_name": "Ayush Vartak",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-544",
+      "full_name": "Sumit Kumar Beniwal",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-547",
+      "full_name": "Lakshay Jain",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-550",
+      "full_name": "P. Vignesh",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-551",
+      "full_name": "Sabhay Chadha",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-553",
+      "full_name": "Hemanth Kumar",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-559",
+      "full_name": "Arjun Azad",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-562",
+      "full_name": "Shubham Garhwal",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-563",
+      "full_name": "Tejasvi Jaiswal",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-568",
+      "full_name": "Yash Dabas",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "OFFICIAL-569",
+      "full_name": "Dhruv Kaushik",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "M0-12",
+      "full_name": "Sai Sudharsan",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    },
+    {
+      "source_record_key": "M0-16",
+      "full_name": "Varun Chakaravarthy",
+      "cricsheet_id": null,
+      "method": "unresolved"
+    }
+  ],
+  "ambiguous_players": [
+    {
+      "source_record_key": "OFFICIAL-24",
+      "full_name": "Harshal Patel",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-32",
+      "full_name": "Jitesh Sharma",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-33",
+      "full_name": "Syed Khaleel Ahmed",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-57",
+      "full_name": "Abdul Samad",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-68",
+      "full_name": "Upendra Singh Yadav",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-72",
+      "full_name": "Mohit Sharma",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-87",
+      "full_name": "Rovman Powell",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-94",
+      "full_name": "Krunal Pandya",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-123",
+      "full_name": "Shaik Rasheed",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-127",
+      "full_name": "Mohd. Arshad Khan",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-136",
+      "full_name": "Harvik Desai",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-145",
+      "full_name": "Sushant Mishra",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-149",
+      "full_name": "Himanshu Sharma",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-151",
+      "full_name": "Digvesh Singh",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-152",
+      "full_name": "Prashant Solanki",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-154",
+      "full_name": "Finn Allen",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-172",
+      "full_name": "Jordan Cox",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-179",
+      "full_name": "Spencer Johnson",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-202",
+      "full_name": "Rishi Dhawan",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-205",
+      "full_name": "Arshin Kulkarni",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-208",
+      "full_name": "Lalit Yadav",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-213",
+      "full_name": "Sanskar Rawat",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-219",
+      "full_name": "Abhilash Shetty",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-226",
+      "full_name": "Raghav Goyal",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-234",
+      "full_name": "Evin Lewis",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-237",
+      "full_name": "Steve Smith",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-254",
+      "full_name": "Matt Henry",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-265",
+      "full_name": "Ayush Pandey",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-285",
+      "full_name": "Akhil Chaudhary",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-289",
+      "full_name": "Kuldip Yadav",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-295",
+      "full_name": "Saumy Pandey",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-297",
+      "full_name": "Himanshu Singh",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-309",
+      "full_name": "Sarfaraz Khan",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-312",
+      "full_name": "Matthew Short",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-316",
+      "full_name": "Shamar Joseph",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-340",
+      "full_name": "Karteek Sharma",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-342",
+      "full_name": "Tejasvi Singh",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-343",
+      "full_name": "Siddharth Yadav",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-348",
+      "full_name": "Divesh Sharma",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-356",
+      "full_name": "Himanshu Singh",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-357",
+      "full_name": "Tejpreet Singh",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-367",
+      "full_name": "Dilshan Madushanka",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-374",
+      "full_name": "Agni Chopra",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-378",
+      "full_name": "Akhil Rawat",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-379",
+      "full_name": "Prateek Yadav",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-384",
+      "full_name": "Sumit Kumar",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-393",
+      "full_name": "Muhammed Khan",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-396",
+      "full_name": "Ali Khan",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-397",
+      "full_name": "Ravi Kumar",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-398",
+      "full_name": "Vineet Panwar",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-400",
+      "full_name": "Aradhya Shukla",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-425",
+      "full_name": "Ramakrishna Ghosh",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-450",
+      "full_name": "John Turner",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-451",
+      "full_name": "Joshua Brown",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-453",
+      "full_name": "Bevan John Jacobs",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-455",
+      "full_name": "Abhishek Nair",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-456",
+      "full_name": "Vishwanath Pratap Singh",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-460",
+      "full_name": "Abid Mushtaq",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-469",
+      "full_name": "Vijay Kumar",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-488",
+      "full_name": "Ayaz Khan",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-490",
+      "full_name": "Rituraj Sharma",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-502",
+      "full_name": "Atif Mushtaq",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-506",
+      "full_name": "Avinash Singh",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-518",
+      "full_name": "Odean Smith",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-526",
+      "full_name": "Yajas Sharma",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-527",
+      "full_name": "Sanjay Yadav",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-533",
+      "full_name": "Pradyuman Kumar Singh",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-536",
+      "full_name": "Mohamed Ali",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-539",
+      "full_name": "Auqib Dar",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-548",
+      "full_name": "Duan Jansen",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-549",
+      "full_name": "Kritagya Singh",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-552",
+      "full_name": "Ben Howell",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-555",
+      "full_name": "Bharat Sharma",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-558",
+      "full_name": "Ravi Yadav",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "OFFICIAL-560",
+      "full_name": "Abhay Choudhary",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "M0-10",
+      "full_name": "Rashid Khan",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "M0-23",
+      "full_name": "Mayank Yadav",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "M0-24",
+      "full_name": "Mohsin Khan",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "M0-27",
+      "full_name": "Suryakumar Yadav",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "M0-29",
+      "full_name": "Rohit Sharma",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    },
+    {
+      "source_record_key": "M0-46",
+      "full_name": "Nitish Kumar Reddy",
+      "cricsheet_id": null,
+      "method": "ambiguous"
+    }
+  ],
+  "source": "Cricsheet JSON/register data"
+}

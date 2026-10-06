@@ -42,3 +42,14 @@ npm test
 ```
 
 The development-only verification view is available at `/data-verification`. It intentionally exposes no player ratings or future auction order.
+# Verified player-statistics pipeline
+
+`npm run stats:update` reads the gitignored Cricsheet IPL and men’s T20 JSON
+archives plus the Cricsheet people/name registers and emits compact audited
+artifacts in `data/player-stats/`. Delivery rules, wickets, phase boundaries,
+recent weighted form, mapping methods, and provenance are preserved; unavailable
+metrics remain `NULL`. The production migration `0017_verified_player_stats.sql`
+blocks tournament start with `PLAYER_STATS_NOT_READY` until every seeded player
+has a verified IPL/T20 row. The current audit report is committed in
+`data/player-stats/validation-report.json` and must be regenerated when the
+source archives are updated.
