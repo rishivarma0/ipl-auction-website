@@ -1,0 +1,2 @@
+insert into franchises (code,name,accent_color) values
+('RCB','Royal Challengers Bengaluru','#ec1c24'),('MI','Mumbai Indians','#1c4fa3'),('CSK','Chennai Super Kings','#f5c400'),('KKR','Kolkata Knight Riders','#8d5aa6'),('SRH','Sunrisers Hyderabad','#f26522'),('RR','Rajasthan Royals','#eb6f9b'),('DC','Delhi Capitals','#1c75bc'),('PBKS','Punjab Kings','#ed1b2f'),('GT','Gujarat Titans','#0b2038'),('LSG','Lucknow Super Giants','#38b8d3') on conflict (code) do nothing;
