@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="antialiased">{children}</body>
+      <body className="antialiased">{children}<footer className="site-footer">Made with <span aria-label="love">❤️</span> by Rishi Varma</footer></body>
     </html>
   );
 }

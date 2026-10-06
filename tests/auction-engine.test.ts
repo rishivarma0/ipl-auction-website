@@ -40,8 +40,8 @@ test("host state machine rejects terminal restart paths", () => {
 test("post-auction mutations are server-only and authorization is explicit", () => {
   assert.match(privileged, /revoke execute on function public\.simulate_one_match.*public\.simulate_tournament/);
   assert.match(readFileSync(new URL("../supabase/migrations/0007_auto_order_and_playoffs.sql", import.meta.url), "utf8"), /grant execute on function public\.post_auction_command.*service_role/);
-  assert.match(server, /SUPABASE_SECRET_KEY/);
-  assert.match(server, /authorizeRoomSession/);
+  assert.match(server, /callPostAuctionGateway/);
+  assert.doesNotMatch(server, /SUPABASE_(SECRET|SERVICE_ROLE)_KEY/);
   assert.doesNotMatch(server, /NEXT_PUBLIC_SUPABASE_SERVICE_ROLE_KEY/);
   assert.doesNotMatch(server, /console\.(log|error).*secret/i);
 });

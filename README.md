@@ -25,7 +25,7 @@ Apply migrations in filename order, then `supabase/seed/001_franchises.sql`. The
 
 Do not commit real credentials. Copy `.env.example` to `.env.local` and fill in Supabase values locally.
 
-Required variables are `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY`, and server-only `SUPABASE_SECRET_KEY` (or legacy `SUPABASE_SERVICE_ROLE_KEY`). Never prefix a privileged key with `NEXT_PUBLIC_`. Configure the server secret in Vercel Project Settings → Environment Variables for Production/Preview.
+Required Vercel variables are only `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY`. Privileged post-auction operations run through the deployed Supabase Edge Function `post-auction-gateway`, which uses Supabase-hosted server secrets internally; no privileged key is required in Vercel.
 
 The statistics engine stores only verified, source-attributed metrics (`stats_source`, `stats_as_of`) and leaves unavailable metrics null. It uses recent form, IPL history, broader T20 history, and role/context weighting when data is present; it never fabricates missing statistics. Hidden scores are not returned by workspace or tournament snapshot routes.
 
