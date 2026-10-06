@@ -211,7 +211,7 @@ export function TournamentDashboard() {
           </div>
         </section>
         {!snapshot.stats_ready && !snapshot.tournament && session.isHost && (
-          <div className="helper-banner" role="status">
+          <div className="stats-blocked-banner" role="status">
             <strong>PLAYER PERFORMANCE DATA NOT READY</strong>
             <span>
               Verified profiles: {snapshot.stats_verified_profiles} / {snapshot.stats_total_profiles}

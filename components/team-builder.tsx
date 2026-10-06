@@ -515,7 +515,7 @@ export function TeamBuilder() {
             {workspace.all_ready && session.isHost ? (
               <>
                 {!workspace.stats_ready && (
-                  <div className="helper-banner" role="status">
+                  <div className="stats-blocked-banner" role="status">
                     <strong>PLAYER PERFORMANCE DATA NOT READY</strong>
                     <span>
                       Verified profiles: {workspace.verified_profiles} / {workspace.total_profiles}
