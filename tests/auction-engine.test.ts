@@ -54,3 +54,9 @@ test("host moderation and timer lock stay server-authoritative", () => {
   assert.match(readFileSync(new URL("../supabase/migrations/0012_live_timer_and_bidder_snapshot.sql", import.meta.url), "utf8"), /AUCTION_ALREADY_STARTED/);
   assert.match(readFileSync(new URL("../app/api/auction/action/route.ts", import.meta.url), "utf8"), /kick_room_member/);
 });
+
+test("host can change the bid timer during the live auction", () => {
+  const liveTimer = readFileSync(new URL("../supabase/migrations/0015_allow_live_timer_changes.sql", import.meta.url), "utf8");
+  assert.match(liveTimer, /v_room\.status not in \('WAITING', 'RUNNING', 'PAUSED'\)/);
+  assert.match(liveTimer, /next bid\/reset/);
+});

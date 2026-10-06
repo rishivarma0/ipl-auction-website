@@ -10,7 +10,7 @@ import type { RoomSnapshot } from "@/lib/auction-room";
 import { Chip, Eyebrow, Price, SegmentedTabs, StatusBadge, Surface, TeamMark } from "@/components/ui/auction-primitives";
 
 const friendlyErrors: Record<string, string> = {
-  AUCTION_PAUSED: "The auction is paused by the host.", AUCTION_NOT_RUNNING: "The auction is not running.", AUCTION_ALREADY_STARTED: "The auction has already started.", INVALID_AUCTION_TIMER: "Choose a timer between 5 and 25 seconds.", KICK_LOCKED: "Players can only be kicked before the auction starts.", MEMBER_NOT_FOUND: "That player is no longer in the room.", CANNOT_KICK_HOST: "The host cannot be kicked.", STALE_PLAYER: "This player has already changed. Refreshing the room.",
+  AUCTION_PAUSED: "The auction is paused by the host.", AUCTION_NOT_RUNNING: "The auction is not running.", AUCTION_ALREADY_STARTED: "The auction has already started.", TIMER_CHANGE_LOCKED: "The bid timer can no longer be changed in this room.", INVALID_AUCTION_TIMER: "Choose a timer between 5 and 25 seconds.", KICK_LOCKED: "Players can only be kicked before the auction starts.", MEMBER_NOT_FOUND: "That player is no longer in the room.", CANNOT_KICK_HOST: "The host cannot be kicked.", STALE_PLAYER: "This player has already changed. Refreshing the room.",
   ALREADY_HIGHEST_BIDDER: "You already hold the highest bid.", INSUFFICIENT_PURSE: "That bid would exceed your remaining purse.", MINIMUM_SQUAD_RESERVE_REQUIRED: "Keep enough purse to complete the minimum squad.",
   SQUAD_LIMIT_REACHED: "Your squad is full — 25/25.", OVERSEAS_LIMIT_REACHED: "Overseas squad limit reached — 8/8.", NOT_HOST: "Only the host can do that.",
 };
@@ -61,8 +61,10 @@ function MembersPanel({ snapshot }: { snapshot: RoomSnapshot }) {
   return <div className="members-panel">{snapshot.members.map(member => <div className="member-row" key={member.id}><span className={`presence-dot ${member.status === "CONNECTED" ? "online" : ""}`} /><TeamMark code={member.franchise_code} size="sm" /><div className="member-copy"><strong>{member.display_name}</strong><small>{member.franchise_code ?? "Choosing a franchise"}</small></div><div className="member-tags">{member.id === snapshot.self.id && <Chip tone="gold">YOU</Chip>}{member.is_host && <Chip tone="purple">HOST</Chip>}</div></div>)}</div>;
 }
 
-function SettingsPanel({ snapshot, canEditTimer, onTimerChange, onKick }: { snapshot: RoomSnapshot; canEditTimer?: boolean; onTimerChange?: (seconds: number) => void; onKick?: (memberId: string) => void }) {
-  const timerNote = snapshot.room.status === "WAITING" ? "Host can change this before the auction starts." : "Locked after auction start.";
+function SettingsPanel({ snapshot, canEditTimer: requestedCanEditTimer, onTimerChange: requestedOnTimerChange, onKick }: { snapshot: RoomSnapshot; canEditTimer?: boolean; onTimerChange?: (seconds: number) => void; onKick?: (memberId: string) => void }) {
+  const canEditTimer = requestedCanEditTimer ?? (snapshot.self.is_host && ["RUNNING", "PAUSED"].includes(snapshot.room.status));
+  const onTimerChange = requestedOnTimerChange ?? ((seconds: number) => window.dispatchEvent(new CustomEvent("auction:timer-change", { detail: seconds })));
+  const timerNote = snapshot.room.status === "WAITING" ? "Host can change this before the auction starts." : snapshot.room.status === "RUNNING" || snapshot.room.status === "PAUSED" ? "Host changes apply to the next bid timer." : "Locked after the auction ends.";
   const kickableMembers = snapshot.members.filter(member => member.id !== snapshot.self.id && !member.is_host);
   return <div className="settings-panel"><div className="setting-row setting-row-stack"><span><Clock3 size={16} /> Bid timer <strong>{snapshot.room.auction_timer_seconds}s</strong></span>{canEditTimer && onTimerChange ? <div className="timer-choice-row">{[5, 8, 10, 15, 20, 25].map(seconds => <button type="button" className={snapshot.room.auction_timer_seconds === seconds ? "active" : ""} key={seconds} onClick={() => onTimerChange(seconds)}>{seconds}s</button>)}</div> : <small>{timerNote}</small>}</div><div className="setting-row"><span><Gavel size={16} /> Auction mode</span><Chip tone="gold">Mega auction</Chip></div><div className="setting-row"><span><HandCoins size={16} /> Starting purse</span><strong>₹{(snapshot.room.starting_purse_lakh / 100).toFixed(0)} Cr</strong></div><div className="setting-row"><span><Users size={16} /> Squad requirement</span><strong>{snapshot.room.minimum_squad_size}–{snapshot.room.maximum_squad_size}</strong></div>{canEditTimer && onKick && <div className="settings-member-management"><div className="settings-management-heading"><strong>Manage players</strong><small>Host controls · lobby only</small></div>{kickableMembers.length === 0 ? <small className="muted">No other players to manage.</small> : kickableMembers.map(member => <div className="setting-row member-management-row" key={member.id}><span><TeamMark code={member.franchise_code} size="sm" /><span><strong>{member.display_name}</strong><small>{member.franchise_code ?? "No franchise selected"}</small></span></span><button className="danger-button compact-button" type="button" onClick={() => { if (window.confirm(`Kick ${member.display_name} from this room?`)) onKick(member.id); }}>Kick</button></div>)}</div>}</div>;
 }
@@ -104,6 +106,14 @@ export function AuctionRoom() {
   const [tab, setTab] = useState<AuctionTab>("players");
   const [statsOpen, setStatsOpen] = useState(false);
   useEffect(() => { const id = window.setInterval(() => setNow(Date.now()), 100); return () => window.clearInterval(id); }, []);
+  useEffect(() => {
+    const onTimerChange = (event: Event) => {
+      const seconds = (event as CustomEvent<number>).detail;
+      if ([5, 8, 10, 15, 20, 25].includes(seconds)) void run("set_timer", undefined, undefined, seconds);
+    };
+    window.addEventListener("auction:timer-change", onTimerChange);
+    return () => window.removeEventListener("auction:timer-change", onTimerChange);
+  });
   const current = useMemo(() => snapshot?.current_set_players.find(player => player.id === snapshot.state.current_player_id), [snapshot]);
   if (!session || !snapshot) return <main className="app-background"><section className="loading-card"><Eyebrow>RECONNECTING</Eyebrow><h1>Returning to<br /><em>the auction.</em></h1><p>{error || "Restoring the authoritative room state…"}</p></section></main>;
   const squad = snapshot.squads.find(item => item.franchise_id === snapshot.self.franchise_id);
