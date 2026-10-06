@@ -5,6 +5,8 @@ import { remainingMilliseconds, resumeTimerEndsAt } from "@/lib/auction-timer";
 
 const migration = readFileSync(new URL("../supabase/migrations/0005_realtime_auction_engine.sql", import.meta.url), "utf8");
 const foundation = readFileSync(new URL("../supabase/migrations/0001_foundation.sql", import.meta.url), "utf8");
+const privileged = readFileSync(new URL("../supabase/migrations/0008_saved_simulation_playoffs.sql", import.meta.url), "utf8");
+const server = readFileSync(new URL("../lib/supabase-server.ts", import.meta.url), "utf8");
 
 test("database engine locks auction state and bids transactionally", () => {
   assert.match(migration, /auction_state where room_id=p_room_id for update/);
@@ -33,4 +35,13 @@ test("host state machine rejects terminal restart paths", () => {
   assert.match(migration, /if v_room\.status<>'WAITING' then raise exception using message='AUCTION_ALREADY_STARTED'/);
   assert.match(migration, /if v_state\.status<>'PAUSED' then raise exception using message='INVALID_STATE_TRANSITION'/);
   assert.match(migration, /if v_room\.status not in \('RUNNING','PAUSED'\) then raise exception using message='INVALID_STATE_TRANSITION'/);
+});
+
+test("post-auction mutations are server-only and authorization is explicit", () => {
+  assert.match(privileged, /revoke execute on function public\.simulate_one_match.*public\.simulate_tournament/);
+  assert.match(readFileSync(new URL("../supabase/migrations/0007_auto_order_and_playoffs.sql", import.meta.url), "utf8"), /grant execute on function public\.post_auction_command.*service_role/);
+  assert.match(server, /SUPABASE_SECRET_KEY/);
+  assert.match(server, /authorizeRoomSession/);
+  assert.doesNotMatch(server, /NEXT_PUBLIC_SUPABASE_SERVICE_ROLE_KEY/);
+  assert.doesNotMatch(server, /console\.(log|error).*secret/i);
 });
