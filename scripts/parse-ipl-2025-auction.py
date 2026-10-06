@@ -90,7 +90,7 @@ def main() -> None:
     if errors: fail("; ".join(errors))
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(rows, indent=2, ensure_ascii=False) + "\n")
-    sets_out = [{"official_set_no": no, "official_set_code": code, "display_name": code, "set_order": no, "player_count": count} for (no, code), count in sorted(sets.items())]
+    sets_out = [{"official_set_no": no, "official_set_code": code, "display_name": code, "set_order": order, "player_count": count} for order, ((no, code), count) in enumerate(sorted(sets.items()), start=1)]
     (output.parent / "auction_sets.json").write_text(json.dumps(sets_out, indent=2) + "\n")
     print(json.dumps({"total_players": len(rows), "indian": 366, "overseas": 208, "auction_sets": len(sets_out), "first_serial": serials[0], "last_serial": serials[-1], "reserve_prices": dict(sorted(prices.items())), "players_per_set": {code: count for (_, code), count in sorted(sets.items())}}, indent=2))
 

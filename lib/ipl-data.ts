@@ -1,4 +1,4 @@
-import players from "@/data/ipl-2025-auction/players.json";
+import players from "@/data/ipl-2025-auction/game_players.json";
 import sets from "@/data/ipl-2025-auction/auction_sets.json";
 
 export type AuctionPlayer = (typeof players)[number];
