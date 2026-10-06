@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { ArrowLeft, ArrowRight, BarChart3, Check, Clock3, Copy, Gavel, HandCoins, MessageCircle, Pause, Play, Radio, Settings2, Share2, Sparkles, Square, TimerReset, Trophy, Users, X } from "lucide-react";
 import { formatAuctionPrice, getBidIncrement, getNextBidAmount } from "@/lib/auction-pricing";
@@ -79,12 +78,11 @@ function TeamGrid({ snapshot, onChoose }: { snapshot: RoomSnapshot; onChoose?: (
 }
 
 export function LobbyRoom() {
-  const router = useRouter();
   const { session, snapshot, error, run, busy } = useRoomSnapshot();
   const [tab, setTab] = useState<"activity" | "teams" | "settings">("activity");
   if (!session || !snapshot) return <main className="app-background"><section className="loading-card"><Eyebrow>RECONNECTING</Eyebrow><h1>Returning to<br /><em>the lobby.</em></h1><p>{error || "Restoring your room session…"}</p><Link href="/join" className="primary-button">Join a room</Link></section></main>;
   const waiting = snapshot.room.status === "WAITING";
-  const startAndOpen = async () => { if (await run("start")) router.push("/auction"); };
+  const startAndOpen = async () => { if (await run("start")) window.location.assign(`${window.location.origin}/auction`); };
   return <main className="app-background"><Header status={waiting ? "WAITING LOBBY" : "AUCTION LIVE"} roomCode={snapshot.room.room_code} actions={<><ShareButtons roomCode={snapshot.room.room_code} />{session.isHost && waiting && <button className="primary-button compact-button" disabled={busy} onClick={() => void startAndOpen()}><Play size={15} /> <span className="desktop-only">{busy ? "Starting…" : "Start"}</span></button>}</>} /><div className="app-container lobby-container"><section className="lobby-heading"><div><Eyebrow>ROOM READY FOR LIFTOFF</Eyebrow><h1>Waiting for <em>the room.</em></h1><p>Invite your friends, claim your colours, and get ready to bid.</p></div><div className="lobby-status-card"><span className="live-dot" /><div><small>ROOM STATUS</small><strong>{snapshot.room.status}</strong></div></div></section><Surface className="invite-card"><div className="invite-icon"><Share2 size={19} /></div><div className="invite-copy"><Eyebrow accent={false}>INVITE FRIENDS</Eyebrow><strong>Bring your best auction instincts.</strong><div className="invite-link"><span>{window.location.origin}/join?room={snapshot.room.room_code}</span><button onClick={() => copyInvite(snapshot.room.room_code)}><Copy size={15} /> Copy</button></div></div><button className="icon-button desktop-only" onClick={() => copyInvite(snapshot.room.room_code)} aria-label="Copy invite"><Copy size={17} /></button></Surface><section className="section-block"><div className="section-heading"><div><Eyebrow>CHOOSE YOUR COLOURS</Eyebrow><h2>Select your team</h2></div><Chip tone="gold"><TeamMark code={snapshot.self.franchise_code} size="sm" /> {snapshot.self.franchise_code ?? "OPEN"}</Chip></div><TeamGrid snapshot={snapshot} onChoose={waiting && snapshot.self.franchise_id === null ? code => void run("choose", undefined, code) : undefined} /></section><div className="promo-strip"><Sparkles size={20} /><div><strong>Ready for the big stage?</strong><small>When the host starts, every bid is realtime and server-authoritative.</small></div><Trophy size={20} /></div><RoomTabs snapshot={snapshot} active={tab} onChange={setTab} onTimerChange={seconds => void run("set_timer", undefined, undefined, seconds)} onKick={memberId => void run("kick", undefined, undefined, undefined, memberId)} />{snapshot.self.franchise_id === null && waiting && <p className="helper-banner">Choose an available franchise above to join the starting lineup.</p>}{!waiting && !session.isHost && <Link href="/auction" className="primary-button full-width">Open live auction <ArrowRight size={16} /></Link>}{session.isHost && waiting && <button className="primary-button full-width mobile-only" disabled={busy} onClick={() => void startAndOpen()}><Play size={15} /> {busy ? "Starting…" : "Start auction"}</button>}{error && <p className="error-banner">{error}</p>}</div></main>;
 }
 
